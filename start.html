@@ -58,30 +58,27 @@
         }
 
         /* Click to Start Button */
-        #btn1 {
-            padding: 15px 30px;
-            font-size: 20px;
-            position: relative;
-            background-color: steelblue;
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; /* Adds space between buttons */
+        }
+
+        .btn {
+            background-color: #4688F1;
             color: white;
             border: none;
-            border-radius: 5px;
+            padding: 12px 20px;
+            font-size: 18px;
             cursor: pointer;
+            border-radius: 5px;
+            width: 300px;
             transition: 0.3s;
         }
-        #btn2 {
-            padding: 15px 30px;
-            font-size: 20px;
-            position: relative;
-            background-color: steelblue;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-        .button:hover {
-            background-color: darkblue;
+
+        .btn:hover {
+            background-color: #357ae8;
         }
 
         /* Hyperlink Styling */
@@ -105,10 +102,11 @@
         <p>Use dataset <a href="https://snap.stanford.edu/data/loc-brightkite.html" target="_blank">Brightkite Dataset</a> as an example.</p>
         
         <!-- Click to Start Button -->
-        <button id = "btn1" class="button" onclick="window.location.href='./2-5d-globe-vis.html'">Start 2.5D Visualization of Checkins</button>
+         <div class="button-container">
+        <button class="btn" onclick="window.location.href='./2-5d-globe-vis.html'">2.5D Visualization of Checkins</button>
         <!-- Click to Start Button -->
-        <button id = "btn2" class="button" onclick="window.location.href='./test_vrNetvis.html'">Start 3D Visualization of Friendship Network</button>
-
+        <button class="btn" onclick="window.location.href='./test_vrNetvis.html'">3D Visualization of Friendship Network</button>
+        </div>
     </div>
 
 </body>
