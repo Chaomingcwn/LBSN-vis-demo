@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>2D A-Frame Network Visualization</title>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-forcegraph-component"></script>
+    <script src="https://d3js.org/d3-scale.v3.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+</head>
+<body>
+    <a-scene background="color: black">
+        <!-- Camera for viewing the network -->
+        <a-entity id="cameraRig" position="0 1.6 10">
+            <a-camera>
+                <a-cursor color="yellow"></a-cursor>
+            </a-camera>
+        </a-entity>
+
+        <!-- The 2D Network Graph -->
+        <a-entity id="graph" forcegraph="forceEngine: d3; numDimensions: 2; nodeRelSize: 3;" position="0 1 -5"></a-entity>
+
+        <!-- Floating Text for Node Info -->
+        <a-entity id="infoText" position="0 3 -4"
+                  text="value: Hover over a node; align: center; color: white; width: 3">
+        </a-entity>
+    </a-scene>
+
+    <script>
+        fetch("data_process/truncated_node_data.json")
+            .then(response => response.json())
+            .then(data => {
+                console.log("Loaded 2D Network Data:", data);
+                const graphEl = document.getElementById("graph");
+                const infoText = document.getElementById("infoText");
+
+                // Find the maximum edge count
+                const maxEdges = Math.max(...data.nodes.map(n => n.friends));
+
+                // Create a color scale based on edge count
+                // const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+                // Set up the 2D force-directed network in A-Frame
+                graphEl.setAttribute("forcegraph", {
+                    jsonUrl: "data_process/truncated_node_data.json",
+                    // nodeColor: node => colorScale(node.group),
+                    nodeAutoColorBy: "group",
+                    nodeRelSize: node => Math.sqrt(node.friends) * 2.5, // Scale by edge count
+                    nodeLabel: node => `Node: ${node.id}, Edges: ${node.friends}, Group: ${node.group}`,
+                    linkColor: () => "lightgray",
+                    numDimensions: 2, // Ensure the graph is 2D
+                    onNodeHover: node => {
+                        infoText.setAttribute("text", "value", node ? `Node: ${node.id}, Group: ${node.group}` : "Hover over a node");
+                    },
+                    onNodeClick: node => {
+                        console.log("Selected node:", node.id);
+                        infoText.setAttribute("text", "value", `Selected: ${node.id}, Edges: ${node.friends}`);
+                    }
+                });
+
+                // Adjust positioning: Bring high-degree nodes closer to the center
+                const forceRadial = d3.forceRadial(
+                    d => (d.friends === maxEdges ? 0 : 50), // Nodes with max edges go to center
+                    0, 0
+                );
+
+                // Apply the force
+                graphEl.components.forcegraph.simulation.force("radial", forceRadial);
+                graphEl.components.forcegraph.simulation.alpha(1).restart();
+            })
+            .catch(error => console.error("Error loading data:", error));
+    </script>
+</body>
+</html>

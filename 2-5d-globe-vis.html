@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.5D Visualization</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Chart Library -->
+    <script src="https://cdn.plot.ly/plotly-3.0.0.min.js" charset="utf-8"></script>
+    <script type="importmap">{ "imports": {
+        "three": "https://esm.sh/three",
+        "three/": "https://esm.sh/three/"
+      }}</script>
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            height: 100vh; /* Full height of viewport */
+        }
+        
+        /* Left Half: Globe Visualization */
+        #globe-container {
+            width: 50%;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navigate-button-1 {
+            position: absolute;
+            bottom: 20px;
+            left: 10%;
+            transform: translateX(-50%);
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        #navigate-button-2 {
+            position: absolute;
+            bottom: 20px;
+            left: 25%;
+            transform: translateX(-50%);
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        #navigate-button-3 {
+            position: absolute;
+            bottom: 20px;
+            left: 40%;
+            transform: translateX(-50%);
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+
+        #navigate-button-1:hover, #navigate-button-2:hover, #navigate-button-3:hover {
+            background-color: #ff2e00;
+        }
+
+    /* Right Half: UI Section */
+    #chart-container {
+                width: 50%;
+                height: 100vh;
+                background-color: #222;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 10px;
+            }
+
+            h3 {
+                text-align: center;
+            }
+
+            /* Ensure Charts Stack Vertically */
+            #user-vs-city, #total_checkIns-vs-city {
+                width: 90%;
+                height: 45%;  /* Adjusted for equal height distribution */
+                background: white;
+            }
+
+
+        /* Ensure Globe is fully contained in left section */
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Left: Globe Visualization -->
+    <div id="globe-container">
+        <div id="globeViz"></div>
+        <button id="navigate-button-1" onclick="goToNewPage('./configurable-globe-checkins.html')">Configurable Globe Vis</button>
+        <button id="navigate-button-2" onclick="goToNewPage('./vr-network-vis.html')">To Network Vis</button>
+        <button id="navigate-button-3" onclick="goToNewPage('./start.html')">To start page</button>
+
+
+    </div>
+
+    <!-- Right: UI Section -->
+    <div id="chart-container">
+        <h3>Overview of Checkins</h3>
+        <div id="user-vs-city"></div>
+        <div id="total_checkIns-vs-city"></div>
+
+    </div>
+
+<script>
+        // button event
+        function goToNewPage(url) {
+            window.location.href = url; // Change this to your actual destination
+        }
+</script>
+
+<script type="module">
+    import ThreeGlobe from 'https://esm.sh/three-globe?external=three';
+    import * as THREE from 'https://esm.sh/three';
+    import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls.js?external=three';
+    import { scaleSequentialSqrt } from 'https://esm.sh/d3-scale';
+    import { interpolateYlOrRd } from 'https://esm.sh/d3-scale-chromatic';
+
+    const weightColor = scaleSequentialSqrt(interpolateYlOrRd).domain([0, 1e2]);
+
+    // Function to fetch and process the check-in data
+    async function loadCheckinData() {
+        try {
+            const response = await fetch('./detailed_checkins.json'); // Ensure correct path
+            const data = await response.json();
+
+            // Transform the data into the format expected by ThreeGlobe
+            const gData = data.map(d => ({
+                lat: d.latitude,
+                lng: d.longitude,
+                size: d.total_checkIns / 100, // Normalize for better visualization
+            }));
+
+            // Initialize the globe visualization
+            const Globe = new ThreeGlobe()
+                .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+                .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+
+                .hexBinPointsData(gData)
+                .hexBinPointWeight('size')
+                .hexBinResolution(4)
+                .hexMargin(0.2)
+                // .hexTopColor(() => 'red')
+                // .hexSideColor(() => 'rgba(0,255,0,0.8)')
+                .hexTopColor(d => weightColor(d.sumWeight))
+                .hexSideColor(d => weightColor(d.sumWeight))
+                .hexBinMerge(true);
+
+            // Setup renderer
+            const renderer = new THREE.WebGLRenderer();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setPixelRatio(window.devicePixelRatio);
+            document.getElementById('globeViz').appendChild(renderer.domElement);
+
+            // Setup scene
+            const scene = new THREE.Scene();
+            scene.add(Globe);
+            scene.add(new THREE.AmbientLight(0xcccccc, Math.PI));
+            scene.add(new THREE.DirectionalLight(0xffffff, 0.6 * Math.PI));
+
+            // Setup camera
+            const camera = new THREE.PerspectiveCamera();
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            camera.position.z = 500;
+
+            // Add camera controls
+            const tbControls = new TrackballControls(camera, renderer.domElement);
+            tbControls.minDistance = 101;
+            tbControls.rotateSpeed = 5;
+            tbControls.zoomSpeed = 0.8;
+
+            // Kick-off animation loop
+            function animate() {
+                tbControls.update();
+                renderer.render(scene, camera);
+                requestAnimationFrame(animate);
+            }
+            animate();
+        } catch (error) {
+            console.error('Error loading or processing check-in data:', error);
+        }
+    }
+
+    // Load and process the check-in data
+    loadCheckinData();
+</script>
+
+<script>
+
+    // Data from the table
+    var data_user_city = [
+  {
+    x: ['Aurora', 'Boulder', 'Colorado Springs', 'Denver', 'Fort Collins', 'Lakewood'],
+    y: [1049, 144, 463, 16, 851, 9],
+    type: 'bar'
+  }
+];
+
+var data_checkins_city = [
+  {
+    x: ['Aurora', 'Boulder', 'Colorado Springs', 'Denver', 'Fort Collins', 'Lakewood'],
+    y: [237648, 22711, 71557, 1316, 121205, 292],
+    type: 'bar'
+  }
+];
+
+
+    user_city_bars= document.getElementById('user-vs-city');
+	Plotly.newPlot( user_city_bars, data_user_city, {margin: { t: 0 } } );
+
+    checkins_city_bars= document.getElementById('total_checkIns-vs-city');
+    Plotly.newPlot( checkins_city_bars, data_checkins_city, {margin: { t: 0 } } );
+
+</script>
+
+
+</body>
+</html>

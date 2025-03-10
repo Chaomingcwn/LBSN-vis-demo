@@ -1,0 +1,2533 @@
+city,user,checkins
+Aurora,12,22
+Aurora,14,36
+Aurora,15,13
+Aurora,18,10
+Aurora,19,12
+Aurora,21,11
+Aurora,143,34
+Aurora,145,1459
+Aurora,146,297
+Aurora,147,78
+Aurora,149,41
+Aurora,154,12
+Aurora,156,173
+Aurora,158,80
+Aurora,165,40
+Aurora,173,13
+Aurora,210,84
+Aurora,213,10
+Aurora,215,13
+Aurora,218,217
+Aurora,219,146
+Aurora,220,11
+Aurora,222,58
+Aurora,224,367
+Aurora,231,45
+Aurora,232,55
+Aurora,233,57
+Aurora,235,157
+Aurora,237,913
+Aurora,244,79
+Aurora,246,221
+Aurora,247,47
+Aurora,249,417
+Aurora,250,168
+Aurora,251,2100
+Aurora,262,21
+Aurora,263,15
+Aurora,271,42
+Aurora,283,13
+Aurora,284,69
+Aurora,301,68
+Aurora,329,102
+Aurora,335,141
+Aurora,620,126
+Aurora,621,27
+Aurora,626,15
+Aurora,628,18
+Aurora,629,213
+Aurora,637,386
+Aurora,643,11
+Aurora,651,20
+Aurora,652,321
+Aurora,661,28
+Aurora,668,32
+Aurora,680,24
+Aurora,832,43
+Aurora,852,64
+Aurora,853,96
+Aurora,880,11
+Aurora,1067,245
+Aurora,1068,41
+Aurora,1069,273
+Aurora,1071,89
+Aurora,1073,173
+Aurora,1076,187
+Aurora,1306,20
+Aurora,1445,138
+Aurora,1447,295
+Aurora,1448,15
+Aurora,1859,58
+Aurora,1860,22
+Aurora,1875,117
+Aurora,1878,33
+Aurora,1896,51
+Aurora,1904,10
+Aurora,1913,76
+Aurora,2137,39
+Aurora,2147,12
+Aurora,2149,386
+Aurora,2150,58
+Aurora,2152,173
+Aurora,2164,201
+Aurora,2165,21
+Aurora,2215,22
+Aurora,2219,11
+Aurora,2220,67
+Aurora,2226,26
+Aurora,2246,20
+Aurora,2252,23
+Aurora,2806,25
+Aurora,2808,56
+Aurora,2811,468
+Aurora,2812,578
+Aurora,2813,348
+Aurora,2819,91
+Aurora,2820,590
+Aurora,2822,68
+Aurora,2823,23
+Aurora,2825,181
+Aurora,2829,49
+Aurora,2832,12
+Aurora,2835,118
+Aurora,2836,176
+Aurora,2840,18
+Aurora,2842,57
+Aurora,2846,94
+Aurora,2847,47
+Aurora,2848,22
+Aurora,2850,34
+Aurora,2851,398
+Aurora,2853,51
+Aurora,2858,162
+Aurora,2866,400
+Aurora,2867,326
+Aurora,2868,110
+Aurora,2869,14
+Aurora,2870,1763
+Aurora,2874,24
+Aurora,2878,28
+Aurora,2880,26
+Aurora,2881,16
+Aurora,2884,66
+Aurora,2892,12
+Aurora,2893,13
+Aurora,2894,10
+Aurora,2896,21
+Aurora,2897,70
+Aurora,2900,47
+Aurora,2902,28
+Aurora,2904,40
+Aurora,2905,28
+Aurora,2907,32
+Aurora,2916,130
+Aurora,2920,122
+Aurora,2927,228
+Aurora,2928,111
+Aurora,2935,14
+Aurora,2942,125
+Aurora,2945,41
+Aurora,2947,82
+Aurora,2954,136
+Aurora,2958,27
+Aurora,2964,17
+Aurora,2966,13
+Aurora,2982,18
+Aurora,3020,22
+Aurora,3032,20
+Aurora,3043,13
+Aurora,3067,11
+Aurora,3077,47
+Aurora,3108,12
+Aurora,3121,13
+Aurora,3651,28
+Aurora,3657,68
+Aurora,4534,22
+Aurora,4617,17
+Aurora,4621,30
+Aurora,4648,12
+Aurora,4902,38
+Aurora,5285,23
+Aurora,5404,22
+Aurora,5408,13
+Aurora,5412,10
+Aurora,5593,270
+Aurora,5594,82
+Aurora,5595,10
+Aurora,5605,38
+Aurora,5627,14
+Aurora,5657,33
+Aurora,6185,239
+Aurora,6186,14
+Aurora,6191,39
+Aurora,6197,54
+Aurora,6199,136
+Aurora,6202,131
+Aurora,6208,45
+Aurora,6506,33
+Aurora,6535,10
+Aurora,6582,57
+Aurora,6583,64
+Aurora,6587,46
+Aurora,6595,36
+Aurora,6596,13
+Aurora,6597,11
+Aurora,6602,44
+Aurora,6603,1574
+Aurora,6605,88
+Aurora,6606,10
+Aurora,6612,20
+Aurora,6615,61
+Aurora,6621,25
+Aurora,6623,11
+Aurora,6625,66
+Aurora,6626,87
+Aurora,6627,46
+Aurora,6630,73
+Aurora,6636,117
+Aurora,6639,25
+Aurora,6650,66
+Aurora,6669,11
+Aurora,6735,42
+Aurora,6736,13
+Aurora,6737,307
+Aurora,6750,14
+Aurora,6777,81
+Aurora,6778,53
+Aurora,6779,121
+Aurora,6781,10
+Aurora,6783,44
+Aurora,6786,29
+Aurora,6788,41
+Aurora,6791,10
+Aurora,6792,17
+Aurora,6825,262
+Aurora,6834,86
+Aurora,6840,43
+Aurora,6895,13
+Aurora,6896,72
+Aurora,6898,13
+Aurora,6899,93
+Aurora,6902,78
+Aurora,6903,35
+Aurora,6904,246
+Aurora,6906,89
+Aurora,6907,26
+Aurora,6908,114
+Aurora,6910,191
+Aurora,6913,26
+Aurora,6916,58
+Aurora,6919,31
+Aurora,6921,144
+Aurora,6922,74
+Aurora,6923,17
+Aurora,6925,256
+Aurora,6927,363
+Aurora,6932,880
+Aurora,6936,48
+Aurora,6942,96
+Aurora,6979,135
+Aurora,6981,155
+Aurora,6983,14
+Aurora,6987,13
+Aurora,7077,13
+Aurora,7103,21
+Aurora,7104,16
+Aurora,7115,37
+Aurora,7116,19
+Aurora,7148,39
+Aurora,7149,186
+Aurora,7170,112
+Aurora,7205,40
+Aurora,7223,87
+Aurora,7225,50
+Aurora,7227,67
+Aurora,7231,225
+Aurora,7239,18
+Aurora,7245,36
+Aurora,7363,38
+Aurora,7364,81
+Aurora,7365,602
+Aurora,7366,153
+Aurora,7367,12
+Aurora,7369,19
+Aurora,7517,38
+Aurora,7518,659
+Aurora,7519,243
+Aurora,7521,1179
+Aurora,7522,331
+Aurora,7523,609
+Aurora,7524,1916
+Aurora,7536,84
+Aurora,7538,311
+Aurora,7540,80
+Aurora,7547,175
+Aurora,7550,479
+Aurora,7557,147
+Aurora,7558,75
+Aurora,7572,30
+Aurora,7579,92
+Aurora,7581,62
+Aurora,7586,71
+Aurora,7591,95
+Aurora,7598,64
+Aurora,7599,187
+Aurora,7602,18
+Aurora,7604,43
+Aurora,7615,274
+Aurora,7617,68
+Aurora,7620,58
+Aurora,7622,25
+Aurora,7634,12
+Aurora,7636,62
+Aurora,7641,107
+Aurora,7654,14
+Aurora,7656,29
+Aurora,7662,1046
+Aurora,7680,125
+Aurora,7681,13
+Aurora,7682,26
+Aurora,7694,11
+Aurora,7698,113
+Aurora,7715,231
+Aurora,8002,355
+Aurora,8112,191
+Aurora,8127,36
+Aurora,8128,40
+Aurora,8129,14
+Aurora,8135,12
+Aurora,8136,1459
+Aurora,8155,1588
+Aurora,8240,28
+Aurora,8243,326
+Aurora,8257,211
+Aurora,8284,81
+Aurora,8285,24
+Aurora,8287,25
+Aurora,8290,22
+Aurora,8425,2100
+Aurora,8426,168
+Aurora,8429,128
+Aurora,8431,11
+Aurora,8467,16
+Aurora,8539,87
+Aurora,8541,90
+Aurora,8545,13
+Aurora,8816,140
+Aurora,8869,138
+Aurora,8888,20
+Aurora,8896,32
+Aurora,8902,12
+Aurora,9110,25
+Aurora,9219,14
+Aurora,9305,122
+Aurora,9404,2100
+Aurora,9408,72
+Aurora,9412,61
+Aurora,9413,60
+Aurora,9419,51
+Aurora,9420,182
+Aurora,9422,17
+Aurora,9441,103
+Aurora,9563,12
+Aurora,9564,39
+Aurora,9566,17
+Aurora,9569,16
+Aurora,9573,13
+Aurora,9574,21
+Aurora,9582,11
+Aurora,9840,19
+Aurora,9952,27
+Aurora,9953,59
+Aurora,9954,512
+Aurora,9955,391
+Aurora,9956,157
+Aurora,9958,294
+Aurora,9960,435
+Aurora,9961,23
+Aurora,9970,2100
+Aurora,9974,227
+Aurora,10060,17
+Aurora,10128,13
+Aurora,10142,21
+Aurora,10155,108
+Aurora,10163,58
+Aurora,10197,26
+Aurora,10198,207
+Aurora,10200,78
+Aurora,10262,11
+Aurora,10263,55
+Aurora,10300,108
+Aurora,10313,31
+Aurora,10332,15
+Aurora,10334,20
+Aurora,10336,11
+Aurora,10337,23
+Aurora,10339,65
+Aurora,10342,82
+Aurora,10343,48
+Aurora,10344,14
+Aurora,10349,30
+Aurora,10350,16
+Aurora,10352,12
+Aurora,10353,37
+Aurora,10354,16
+Aurora,10358,13
+Aurora,10359,10
+Aurora,10363,16
+Aurora,10368,10
+Aurora,10371,17
+Aurora,10373,86
+Aurora,10374,12
+Aurora,10398,17
+Aurora,10418,49
+Aurora,10516,126
+Aurora,10520,114
+Aurora,10531,1760
+Aurora,10532,2100
+Aurora,10533,2100
+Aurora,10536,210
+Aurora,10539,2100
+Aurora,10540,29
+Aurora,10545,44
+Aurora,10548,101
+Aurora,10549,93
+Aurora,10552,20
+Aurora,10558,17
+Aurora,10563,51
+Aurora,10571,142
+Aurora,10604,80
+Aurora,10612,150
+Aurora,10613,67
+Aurora,10617,21
+Aurora,10620,16
+Aurora,10622,10
+Aurora,10627,19
+Aurora,10629,161
+Aurora,10630,20
+Aurora,10636,26
+Aurora,10638,81
+Aurora,10641,17
+Aurora,10645,40
+Aurora,10653,204
+Aurora,10658,22
+Aurora,10659,21
+Aurora,10666,164
+Aurora,10668,183
+Aurora,10669,19
+Aurora,10677,14
+Aurora,10685,48
+Aurora,10688,43
+Aurora,10696,18
+Aurora,10699,14
+Aurora,10705,23
+Aurora,10707,20
+Aurora,10714,20
+Aurora,10719,65
+Aurora,10722,139
+Aurora,10724,14
+Aurora,10846,277
+Aurora,10858,2100
+Aurora,10959,72
+Aurora,10961,13
+Aurora,10963,30
+Aurora,10977,30
+Aurora,11052,18
+Aurora,11151,29
+Aurora,11195,31
+Aurora,11199,10
+Aurora,11253,21
+Aurora,11254,2100
+Aurora,11255,256
+Aurora,11264,10
+Aurora,11276,14
+Aurora,11280,81
+Aurora,11360,150
+Aurora,11361,740
+Aurora,11505,2100
+Aurora,11506,379
+Aurora,11513,940
+Aurora,11515,1609
+Aurora,11520,564
+Aurora,11528,11
+Aurora,11529,15
+Aurora,11530,32
+Aurora,11536,251
+Aurora,11537,93
+Aurora,11540,155
+Aurora,11545,121
+Aurora,11546,20
+Aurora,11549,49
+Aurora,11563,70
+Aurora,11566,30
+Aurora,11567,50
+Aurora,11568,22
+Aurora,11571,156
+Aurora,11580,65
+Aurora,11586,24
+Aurora,11594,46
+Aurora,11598,216
+Aurora,11620,28
+Aurora,11632,14
+Aurora,11633,111
+Aurora,11642,12
+Aurora,11660,17
+Aurora,11661,33
+Aurora,11664,2100
+Aurora,11703,108
+Aurora,11736,29
+Aurora,12226,315
+Aurora,12278,16
+Aurora,12467,140
+Aurora,12470,14
+Aurora,12516,35
+Aurora,12594,12
+Aurora,12660,47
+Aurora,12853,52
+Aurora,12894,776
+Aurora,13096,2100
+Aurora,13097,2100
+Aurora,13098,2100
+Aurora,13099,2100
+Aurora,13102,2100
+Aurora,13104,112
+Aurora,13105,2100
+Aurora,13106,2100
+Aurora,13108,186
+Aurora,13110,2100
+Aurora,13111,2100
+Aurora,13112,473
+Aurora,13115,2100
+Aurora,13118,307
+Aurora,13119,332
+Aurora,13121,1764
+Aurora,13122,845
+Aurora,13128,15
+Aurora,13130,232
+Aurora,13133,561
+Aurora,13136,339
+Aurora,13137,371
+Aurora,13140,220
+Aurora,13141,1948
+Aurora,13143,446
+Aurora,13144,123
+Aurora,13146,105
+Aurora,13147,100
+Aurora,13148,352
+Aurora,13149,208
+Aurora,13150,275
+Aurora,13154,155
+Aurora,13155,1808
+Aurora,13159,238
+Aurora,13161,51
+Aurora,13163,352
+Aurora,13164,324
+Aurora,13165,265
+Aurora,13166,278
+Aurora,13167,160
+Aurora,13168,1350
+Aurora,13171,52
+Aurora,13172,84
+Aurora,13173,34
+Aurora,13174,59
+Aurora,13175,2100
+Aurora,13178,2100
+Aurora,13181,1062
+Aurora,13182,1178
+Aurora,13183,306
+Aurora,13184,120
+Aurora,13187,2100
+Aurora,13189,23
+Aurora,13190,267
+Aurora,13192,1487
+Aurora,13199,16
+Aurora,13201,263
+Aurora,13202,1089
+Aurora,13205,658
+Aurora,13211,612
+Aurora,13216,141
+Aurora,13218,70
+Aurora,13220,588
+Aurora,13222,468
+Aurora,13223,329
+Aurora,13225,118
+Aurora,13226,239
+Aurora,13228,76
+Aurora,13230,211
+Aurora,13233,495
+Aurora,13235,432
+Aurora,13236,340
+Aurora,13237,685
+Aurora,13239,149
+Aurora,13240,41
+Aurora,13241,47
+Aurora,13242,99
+Aurora,13244,30
+Aurora,13245,10
+Aurora,13246,2091
+Aurora,13248,30
+Aurora,13249,309
+Aurora,13251,11
+Aurora,13253,399
+Aurora,13257,28
+Aurora,13258,25
+Aurora,13259,73
+Aurora,13265,134
+Aurora,13267,513
+Aurora,13268,19
+Aurora,13269,206
+Aurora,13270,71
+Aurora,13271,112
+Aurora,13272,175
+Aurora,13274,68
+Aurora,13275,63
+Aurora,13276,71
+Aurora,13279,106
+Aurora,13282,489
+Aurora,13286,155
+Aurora,13292,57
+Aurora,13298,219
+Aurora,13299,183
+Aurora,13300,192
+Aurora,13304,474
+Aurora,13307,28
+Aurora,13308,155
+Aurora,13309,602
+Aurora,13312,108
+Aurora,13314,38
+Aurora,13315,142
+Aurora,13316,211
+Aurora,13318,42
+Aurora,13321,74
+Aurora,13322,689
+Aurora,13325,238
+Aurora,13330,2100
+Aurora,13334,207
+Aurora,13336,181
+Aurora,13337,346
+Aurora,13338,57
+Aurora,13339,268
+Aurora,13340,2100
+Aurora,13341,761
+Aurora,13344,12
+Aurora,13353,25
+Aurora,13354,19
+Aurora,13355,125
+Aurora,13360,216
+Aurora,13362,88
+Aurora,13363,105
+Aurora,13364,308
+Aurora,13366,63
+Aurora,13367,25
+Aurora,13368,46
+Aurora,13370,115
+Aurora,13372,22
+Aurora,13375,61
+Aurora,13377,291
+Aurora,13378,48
+Aurora,13382,15
+Aurora,13383,86
+Aurora,13384,88
+Aurora,13385,111
+Aurora,13386,47
+Aurora,13387,26
+Aurora,13391,300
+Aurora,13403,1466
+Aurora,13407,670
+Aurora,13418,19
+Aurora,13419,18
+Aurora,13421,526
+Aurora,13422,31
+Aurora,13427,1824
+Aurora,13428,67
+Aurora,13434,55
+Aurora,13440,24
+Aurora,13446,255
+Aurora,13447,14
+Aurora,13451,60
+Aurora,13454,193
+Aurora,13458,51
+Aurora,13461,15
+Aurora,13463,83
+Aurora,13464,10
+Aurora,13465,10
+Aurora,13481,1179
+Aurora,13485,68
+Aurora,13487,18
+Aurora,13489,1679
+Aurora,13490,2100
+Aurora,13493,19
+Aurora,13501,15
+Aurora,13505,21
+Aurora,13508,18
+Aurora,13517,16
+Aurora,13521,44
+Aurora,13525,1153
+Aurora,13526,74
+Aurora,13528,57
+Aurora,13531,2100
+Aurora,13532,297
+Aurora,13536,316
+Aurora,13539,10
+Aurora,13550,26
+Aurora,13555,16
+Aurora,13557,362
+Aurora,13561,364
+Aurora,13563,1142
+Aurora,13573,33
+Aurora,13574,30
+Aurora,13575,99
+Aurora,13576,214
+Aurora,13578,2100
+Aurora,13580,99
+Aurora,13584,26
+Aurora,13590,196
+Aurora,13592,54
+Aurora,13597,272
+Aurora,13599,14
+Aurora,13608,13
+Aurora,13747,201
+Aurora,13798,19
+Aurora,13800,102
+Aurora,13801,145
+Aurora,13804,31
+Aurora,13807,40
+Aurora,13810,40
+Aurora,14356,255
+Aurora,14640,55
+Aurora,14693,12
+Aurora,14851,64
+Aurora,14852,19
+Aurora,15534,22
+Aurora,15622,22
+Aurora,15710,122
+Aurora,15824,41
+Aurora,15833,93
+Aurora,16056,22
+Aurora,16119,52
+Aurora,16262,46
+Aurora,16302,19
+Aurora,16798,78
+Aurora,16799,23
+Aurora,16801,37
+Aurora,17046,115
+Aurora,17049,192
+Aurora,17155,97
+Aurora,17213,343
+Aurora,17286,11
+Aurora,17289,39
+Aurora,17291,11
+Aurora,17387,36
+Aurora,17568,16
+Aurora,17741,91
+Aurora,18339,46
+Aurora,18502,44
+Aurora,18640,14
+Aurora,18643,23
+Aurora,18806,12
+Aurora,18906,17
+Aurora,18961,53
+Aurora,18962,288
+Aurora,19113,47
+Aurora,19574,314
+Aurora,19604,50
+Aurora,19684,172
+Aurora,19822,94
+Aurora,20004,35
+Aurora,20128,1964
+Aurora,20138,52
+Aurora,20227,17
+Aurora,20644,33
+Aurora,20944,996
+Aurora,20975,197
+Aurora,21350,55
+Aurora,21429,12
+Aurora,21536,14
+Aurora,21592,25
+Aurora,21788,13
+Aurora,21792,13
+Aurora,21846,521
+Aurora,22070,23
+Aurora,22243,125
+Aurora,22673,16
+Aurora,22700,25
+Aurora,22955,30
+Aurora,22981,10
+Aurora,23011,42
+Aurora,23045,31
+Aurora,23554,42
+Aurora,23739,73
+Aurora,23890,33
+Aurora,24244,90
+Aurora,24288,69
+Aurora,24315,26
+Aurora,24507,118
+Aurora,24707,14
+Aurora,24818,238
+Aurora,24997,108
+Aurora,25318,28
+Aurora,25687,18
+Aurora,25859,18
+Aurora,25976,17
+Aurora,26051,115
+Aurora,26061,29
+Aurora,26063,73
+Aurora,26106,20
+Aurora,26145,921
+Aurora,26146,15
+Aurora,26404,233
+Aurora,26405,10
+Aurora,26415,446
+Aurora,26466,120
+Aurora,26504,191
+Aurora,26680,15
+Aurora,26814,59
+Aurora,26815,34
+Aurora,26817,12
+Aurora,27243,98
+Aurora,27244,15
+Aurora,27250,880
+Aurora,27345,15
+Aurora,27534,190
+Aurora,27723,10
+Aurora,28115,71
+Aurora,28146,2100
+Aurora,28200,37
+Aurora,28518,78
+Aurora,28519,19
+Aurora,28531,53
+Aurora,28816,26
+Aurora,28887,63
+Aurora,28888,79
+Aurora,28939,39
+Aurora,29860,61
+Aurora,29963,31
+Aurora,30186,10
+Aurora,30239,19
+Aurora,30638,136
+Aurora,31530,233
+Aurora,31594,20
+Aurora,31686,231
+Aurora,31723,43
+Aurora,31815,65
+Aurora,32504,19
+Aurora,33095,28
+Aurora,33164,127
+Aurora,33247,2100
+Aurora,33263,79
+Aurora,33274,12
+Aurora,33306,33
+Aurora,33871,47
+Aurora,33904,74
+Aurora,33991,25
+Aurora,34376,248
+Aurora,34478,263
+Aurora,34645,58
+Aurora,34721,159
+Aurora,34977,52
+Aurora,34990,69
+Aurora,34992,40
+Aurora,35000,49
+Aurora,35200,135
+Aurora,35201,98
+Aurora,35281,106
+Aurora,35282,152
+Aurora,35358,12
+Aurora,35440,199
+Aurora,35442,109
+Aurora,35443,499
+Aurora,35445,137
+Aurora,35446,145
+Aurora,35447,11
+Aurora,35448,18
+Aurora,35449,16
+Aurora,35451,12
+Aurora,35452,14
+Aurora,35458,30
+Aurora,35460,2100
+Aurora,35461,25
+Aurora,35471,150
+Aurora,35472,69
+Aurora,35473,18
+Aurora,35481,402
+Aurora,35483,47
+Aurora,35491,16
+Aurora,35566,190
+Aurora,35712,299
+Aurora,35772,54
+Aurora,35774,24
+Aurora,35776,2100
+Aurora,35777,10
+Aurora,35778,109
+Aurora,35779,114
+Aurora,35860,29
+Aurora,35884,58
+Aurora,35886,36
+Aurora,36213,12
+Aurora,36270,138
+Aurora,36272,161
+Aurora,36273,58
+Aurora,36321,11
+Aurora,36337,57
+Aurora,36351,23
+Aurora,36364,20
+Aurora,36374,11
+Aurora,36376,20
+Aurora,36521,52
+Aurora,36545,291
+Aurora,36546,46
+Aurora,36931,74
+Aurora,36933,24
+Aurora,37054,27
+Aurora,37160,242
+Aurora,37175,14
+Aurora,37416,25
+Aurora,37639,354
+Aurora,37948,38
+Aurora,37997,98
+Aurora,38056,184
+Aurora,38061,160
+Aurora,38139,185
+Aurora,38158,51
+Aurora,38224,31
+Aurora,38240,31
+Aurora,38330,12
+Aurora,39260,24
+Aurora,39345,33
+Aurora,39683,16
+Aurora,39708,73
+Aurora,39717,20
+Aurora,39719,84
+Aurora,39720,32
+Aurora,39723,10
+Aurora,39736,2100
+Aurora,39737,142
+Aurora,39738,14
+Aurora,39740,11
+Aurora,39769,404
+Aurora,39967,17
+Aurora,39979,315
+Aurora,40116,14
+Aurora,40129,31
+Aurora,40295,393
+Aurora,40296,65
+Aurora,40297,13
+Aurora,40300,38
+Aurora,40314,2100
+Aurora,40375,190
+Aurora,40587,33
+Aurora,40750,23
+Aurora,40833,35
+Aurora,41108,33
+Aurora,41115,317
+Aurora,41411,934
+Aurora,41594,177
+Aurora,41595,423
+Aurora,41596,39
+Aurora,41597,63
+Aurora,41598,66
+Aurora,41599,150
+Aurora,41600,17
+Aurora,41602,2100
+Aurora,41605,2100
+Aurora,41606,11
+Aurora,41607,64
+Aurora,41977,50
+Aurora,42002,21
+Aurora,42058,15
+Aurora,42126,13
+Aurora,42222,12
+Aurora,42319,311
+Aurora,42576,77
+Aurora,43556,37
+Aurora,43774,38
+Aurora,43813,18
+Aurora,43852,520
+Aurora,43886,17
+Aurora,43907,17
+Aurora,43943,52
+Aurora,43985,45
+Aurora,44006,96
+Aurora,44008,173
+Aurora,44009,35
+Aurora,44027,16
+Aurora,44052,10
+Aurora,44053,692
+Aurora,44058,167
+Aurora,44077,11
+Aurora,44084,1266
+Aurora,44085,266
+Aurora,44124,86
+Aurora,44125,43
+Aurora,44234,906
+Aurora,44242,222
+Aurora,44299,14
+Aurora,44300,14
+Aurora,44326,62
+Aurora,44565,59
+Aurora,44760,14
+Aurora,45157,85
+Aurora,45201,32
+Aurora,45315,49
+Aurora,45538,83
+Aurora,45566,12
+Aurora,46540,30
+Aurora,46759,44
+Aurora,47889,1601
+Aurora,48034,365
+Aurora,48373,84
+Aurora,48737,2100
+Aurora,48873,69
+Aurora,49136,27
+Aurora,49766,50
+Aurora,50465,26
+Aurora,50610,185
+Aurora,51366,18
+Aurora,51389,78
+Aurora,51404,245
+Aurora,51560,143
+Aurora,51822,98
+Aurora,52716,11
+Aurora,53610,24
+Aurora,53611,36
+Aurora,53625,33
+Aurora,53685,44
+Aurora,53696,67
+Aurora,53767,15
+Aurora,53808,53
+Aurora,53851,19
+Aurora,54360,26
+Aurora,54677,27
+Aurora,54678,105
+Aurora,54715,480
+Aurora,54716,547
+Aurora,54756,1010
+Aurora,55005,13
+Aurora,55074,158
+Aurora,55083,15
+Aurora,55489,23
+Aurora,55574,211
+Aurora,55578,34
+Aurora,55593,10
+Aurora,55597,18
+Aurora,55598,21
+Aurora,55599,14
+Aurora,55615,31
+Aurora,55630,29
+Aurora,55639,11
+Aurora,55646,38
+Aurora,55652,30
+Aurora,56001,74
+Aurora,57401,46
+Aurora,57402,117
+Aurora,57406,2012
+Aurora,57407,118
+Aurora,57491,270
+Aurora,57535,106
+Aurora,57536,103
+Aurora,57537,104
+Aurora,57548,22
+Aurora,57561,2024
+Aurora,57562,634
+Aurora,57563,170
+Aurora,57811,149
+Aurora,57812,239
+Aurora,57813,40
+Aurora,57824,93
+Aurora,58040,63
+Aurora,58043,2100
+Aurora,58044,24
+Boulder,1,95
+Boulder,3,379
+Boulder,4,97
+Boulder,7,53
+Boulder,11,189
+Boulder,23,20
+Boulder,40,22
+Boulder,42,17
+Boulder,46,25
+Boulder,123,125
+Boulder,124,12
+Boulder,143,16
+Boulder,149,227
+Boulder,163,16
+Boulder,167,13
+Boulder,206,399
+Boulder,210,1943
+Boulder,211,13
+Boulder,218,81
+Boulder,228,1062
+Boulder,232,233
+Boulder,238,28
+Boulder,242,159
+Boulder,296,31
+Boulder,624,50
+Boulder,627,81
+Boulder,657,43
+Boulder,850,11
+Boulder,854,33
+Boulder,875,55
+Boulder,1070,241
+Boulder,1116,11
+Boulder,1142,10
+Boulder,1302,148
+Boulder,1891,50
+Boulder,2172,26
+Boulder,2805,237
+Boulder,2807,20
+Boulder,2836,15
+Boulder,2900,48
+Boulder,2937,116
+Boulder,2985,18
+Boulder,2989,97
+Boulder,3015,97
+Boulder,3599,10
+Boulder,4945,187
+Boulder,5145,10
+Boulder,5375,99
+Boulder,6107,11
+Boulder,6193,322
+Boulder,6194,69
+Boulder,6575,13
+Boulder,6612,311
+Boulder,6613,45
+Boulder,6618,95
+Boulder,6649,10
+Boulder,6679,64
+Boulder,6736,51
+Boulder,6738,10
+Boulder,6896,33
+Boulder,6900,100
+Boulder,7110,105
+Boulder,7358,2100
+Boulder,7465,345
+Boulder,7516,147
+Boulder,7547,11
+Boulder,7575,188
+Boulder,7592,73
+Boulder,7599,11
+Boulder,7728,66
+Boulder,7737,104
+Boulder,8210,512
+Boulder,8401,90
+Boulder,8428,26
+Boulder,8430,65
+Boulder,8537,14
+Boulder,8794,63
+Boulder,9407,81
+Boulder,9411,43
+Boulder,9416,114
+Boulder,9427,44
+Boulder,9430,27
+Boulder,9591,25
+Boulder,9722,175
+Boulder,9793,37
+Boulder,9994,17
+Boulder,10025,34
+Boulder,10026,69
+Boulder,10378,96
+Boulder,10530,976
+Boulder,10531,340
+Boulder,10538,446
+Boulder,10551,640
+Boulder,11257,67
+Boulder,11333,27
+Boulder,11507,2100
+Boulder,11584,95
+Boulder,12658,145
+Boulder,13109,2100
+Boulder,13160,868
+Boulder,13214,145
+Boulder,13260,92
+Boulder,13369,40
+Boulder,13396,54
+Boulder,13489,12
+Boulder,13558,220
+Boulder,13568,10
+Boulder,13617,63
+Boulder,13803,98
+Boulder,13907,61
+Boulder,14480,13
+Boulder,14768,21
+Boulder,15010,77
+Boulder,18062,13
+Boulder,19364,11
+Boulder,19366,10
+Boulder,19367,80
+Boulder,19529,15
+Boulder,19530,20
+Boulder,21586,15
+Boulder,22242,74
+Boulder,23796,11
+Boulder,28431,35
+Boulder,28518,11
+Boulder,29866,17
+Boulder,32139,32
+Boulder,32542,53
+Boulder,32547,33
+Boulder,33264,70
+Boulder,35109,25
+Boulder,35141,11
+Boulder,35474,15
+Boulder,36372,172
+Boulder,36924,21
+Boulder,38413,41
+Boulder,39636,67
+Boulder,39827,23
+Boulder,42426,40
+Boulder,43501,151
+Boulder,45388,27
+Boulder,46029,24
+Boulder,47889,13
+Boulder,49049,24
+Boulder,49719,63
+Colorado Springs,144,33
+Colorado Springs,145,40
+Colorado Springs,146,39
+Colorado Springs,147,454
+Colorado Springs,157,16
+Colorado Springs,208,421
+Colorado Springs,209,10
+Colorado Springs,212,712
+Colorado Springs,215,15
+Colorado Springs,219,116
+Colorado Springs,220,66
+Colorado Springs,222,29
+Colorado Springs,225,1038
+Colorado Springs,226,309
+Colorado Springs,229,17
+Colorado Springs,232,95
+Colorado Springs,234,145
+Colorado Springs,252,61
+Colorado Springs,259,71
+Colorado Springs,268,82
+Colorado Springs,269,42
+Colorado Springs,283,19
+Colorado Springs,299,55
+Colorado Springs,621,102
+Colorado Springs,632,114
+Colorado Springs,633,171
+Colorado Springs,648,257
+Colorado Springs,650,130
+Colorado Springs,654,63
+Colorado Springs,851,77
+Colorado Springs,853,189
+Colorado Springs,876,18
+Colorado Springs,1069,929
+Colorado Springs,1078,20
+Colorado Springs,1118,46
+Colorado Springs,1146,45
+Colorado Springs,1305,196
+Colorado Springs,1444,48
+Colorado Springs,1447,114
+Colorado Springs,1460,17
+Colorado Springs,1521,13
+Colorado Springs,1769,531
+Colorado Springs,1863,14
+Colorado Springs,1864,291
+Colorado Springs,1871,96
+Colorado Springs,1879,139
+Colorado Springs,1882,333
+Colorado Springs,1887,89
+Colorado Springs,1913,24
+Colorado Springs,2134,310
+Colorado Springs,2147,2083
+Colorado Springs,2148,11
+Colorado Springs,2149,14
+Colorado Springs,2154,46
+Colorado Springs,2157,59
+Colorado Springs,2163,72
+Colorado Springs,2193,19
+Colorado Springs,2195,10
+Colorado Springs,2201,17
+Colorado Springs,2209,19
+Colorado Springs,2807,51
+Colorado Springs,2810,261
+Colorado Springs,2824,196
+Colorado Springs,2830,73
+Colorado Springs,2835,31
+Colorado Springs,2839,132
+Colorado Springs,2848,27
+Colorado Springs,2858,18
+Colorado Springs,2860,97
+Colorado Springs,2863,81
+Colorado Springs,2890,26
+Colorado Springs,2897,11
+Colorado Springs,2915,557
+Colorado Springs,2920,21
+Colorado Springs,2922,10
+Colorado Springs,2924,245
+Colorado Springs,2941,128
+Colorado Springs,2959,78
+Colorado Springs,2960,38
+Colorado Springs,2977,124
+Colorado Springs,2978,28
+Colorado Springs,2980,161
+Colorado Springs,2983,11
+Colorado Springs,2986,54
+Colorado Springs,3006,120
+Colorado Springs,3020,11
+Colorado Springs,3046,14
+Colorado Springs,3067,19
+Colorado Springs,3136,15
+Colorado Springs,3159,26
+Colorado Springs,3595,53
+Colorado Springs,3635,141
+Colorado Springs,3646,53
+Colorado Springs,3648,206
+Colorado Springs,3651,24
+Colorado Springs,3667,18
+Colorado Springs,3668,80
+Colorado Springs,4532,63
+Colorado Springs,4611,43
+Colorado Springs,4612,72
+Colorado Springs,4613,596
+Colorado Springs,4614,41
+Colorado Springs,5400,241
+Colorado Springs,5408,10
+Colorado Springs,5598,994
+Colorado Springs,5599,566
+Colorado Springs,5609,122
+Colorado Springs,5615,17
+Colorado Springs,5619,10
+Colorado Springs,5621,17
+Colorado Springs,6191,29
+Colorado Springs,6192,278
+Colorado Springs,6204,23
+Colorado Springs,6233,22
+Colorado Springs,6586,13
+Colorado Springs,6588,137
+Colorado Springs,6589,271
+Colorado Springs,6594,39
+Colorado Springs,6629,36
+Colorado Springs,6638,13
+Colorado Springs,6736,10
+Colorado Springs,6742,48
+Colorado Springs,6743,11
+Colorado Springs,6748,14
+Colorado Springs,6827,20
+Colorado Springs,6829,26
+Colorado Springs,6834,88
+Colorado Springs,6896,1010
+Colorado Springs,6917,232
+Colorado Springs,6918,191
+Colorado Springs,6920,2100
+Colorado Springs,6930,50
+Colorado Springs,6931,256
+Colorado Springs,6935,28
+Colorado Springs,6987,174
+Colorado Springs,6991,10
+Colorado Springs,6994,12
+Colorado Springs,7008,13
+Colorado Springs,7009,10
+Colorado Springs,7079,10
+Colorado Springs,7105,228
+Colorado Springs,7109,65
+Colorado Springs,7223,32
+Colorado Springs,7228,46
+Colorado Springs,7237,24
+Colorado Springs,7244,118
+Colorado Springs,7254,17
+Colorado Springs,7258,15
+Colorado Springs,7360,161
+Colorado Springs,7361,28
+Colorado Springs,7362,441
+Colorado Springs,7363,34
+Colorado Springs,7367,21
+Colorado Springs,7375,18
+Colorado Springs,7381,10
+Colorado Springs,7391,10
+Colorado Springs,7468,18
+Colorado Springs,7520,117
+Colorado Springs,7527,56
+Colorado Springs,7528,131
+Colorado Springs,7530,478
+Colorado Springs,7532,209
+Colorado Springs,7533,37
+Colorado Springs,7539,453
+Colorado Springs,7541,370
+Colorado Springs,7542,75
+Colorado Springs,7543,52
+Colorado Springs,7549,115
+Colorado Springs,7554,103
+Colorado Springs,7566,41
+Colorado Springs,7569,508
+Colorado Springs,7573,482
+Colorado Springs,7578,24
+Colorado Springs,7592,183
+Colorado Springs,7594,70
+Colorado Springs,7595,213
+Colorado Springs,7597,38
+Colorado Springs,7600,101
+Colorado Springs,7604,159
+Colorado Springs,7605,51
+Colorado Springs,7606,1219
+Colorado Springs,7607,91
+Colorado Springs,7608,55
+Colorado Springs,7610,21
+Colorado Springs,7615,87
+Colorado Springs,7617,12
+Colorado Springs,7619,12
+Colorado Springs,7630,10
+Colorado Springs,7632,133
+Colorado Springs,7633,79
+Colorado Springs,7635,45
+Colorado Springs,7643,12
+Colorado Springs,7644,59
+Colorado Springs,7647,100
+Colorado Springs,7659,91
+Colorado Springs,7660,24
+Colorado Springs,7741,50
+Colorado Springs,7748,17
+Colorado Springs,8003,374
+Colorado Springs,8009,25
+Colorado Springs,8111,103
+Colorado Springs,8211,1082
+Colorado Springs,8283,305
+Colorado Springs,8286,50
+Colorado Springs,8288,54
+Colorado Springs,8400,457
+Colorado Springs,8533,72
+Colorado Springs,8541,256
+Colorado Springs,8738,20
+Colorado Springs,8740,40
+Colorado Springs,8907,77
+Colorado Springs,8910,11
+Colorado Springs,8914,22
+Colorado Springs,9220,222
+Colorado Springs,9301,13
+Colorado Springs,9306,16
+Colorado Springs,9309,51
+Colorado Springs,9405,2100
+Colorado Springs,9414,29
+Colorado Springs,9415,14
+Colorado Springs,9428,47
+Colorado Springs,9529,234
+Colorado Springs,9562,600
+Colorado Springs,9582,77
+Colorado Springs,9583,16
+Colorado Springs,9794,23
+Colorado Springs,9833,108
+Colorado Springs,9847,175
+Colorado Springs,9906,79
+Colorado Springs,9908,29
+Colorado Springs,9910,11
+Colorado Springs,9952,2073
+Colorado Springs,9957,2100
+Colorado Springs,9971,272
+Colorado Springs,9977,14
+Colorado Springs,10058,10
+Colorado Springs,10127,15
+Colorado Springs,10140,27
+Colorado Springs,10163,50
+Colorado Springs,10509,2100
+Colorado Springs,10512,20
+Colorado Springs,10534,148
+Colorado Springs,10550,524
+Colorado Springs,10575,115
+Colorado Springs,10845,168
+Colorado Springs,10847,141
+Colorado Springs,11107,69
+Colorado Springs,11168,14
+Colorado Springs,11262,46
+Colorado Springs,11269,82
+Colorado Springs,11359,12
+Colorado Springs,11512,163
+Colorado Springs,11517,211
+Colorado Springs,11522,191
+Colorado Springs,11523,125
+Colorado Springs,11525,197
+Colorado Springs,11542,114
+Colorado Springs,11547,32
+Colorado Springs,11556,77
+Colorado Springs,11561,220
+Colorado Springs,11572,78
+Colorado Springs,11576,64
+Colorado Springs,11591,74
+Colorado Springs,11592,29
+Colorado Springs,11607,12
+Colorado Springs,11627,32
+Colorado Springs,11652,10
+Colorado Springs,11699,16
+Colorado Springs,11701,43
+Colorado Springs,12242,29
+Colorado Springs,12313,126
+Colorado Springs,12347,13
+Colorado Springs,12528,34
+Colorado Springs,12630,36
+Colorado Springs,12893,26
+Colorado Springs,13010,85
+Colorado Springs,13103,652
+Colorado Springs,13104,718
+Colorado Springs,13107,337
+Colorado Springs,13108,1905
+Colorado Springs,13118,335
+Colorado Springs,13123,31
+Colorado Springs,13124,88
+Colorado Springs,13126,2100
+Colorado Springs,13127,69
+Colorado Springs,13129,1141
+Colorado Springs,13130,58
+Colorado Springs,13131,511
+Colorado Springs,13158,70
+Colorado Springs,13176,1128
+Colorado Springs,13202,1008
+Colorado Springs,13225,10
+Colorado Springs,13231,106
+Colorado Springs,13266,463
+Colorado Springs,13283,112
+Colorado Springs,13285,285
+Colorado Springs,13294,131
+Colorado Springs,13296,291
+Colorado Springs,13297,149
+Colorado Springs,13302,101
+Colorado Springs,13305,53
+Colorado Springs,13319,202
+Colorado Springs,13333,143
+Colorado Springs,13348,66
+Colorado Springs,13352,44
+Colorado Springs,13366,32
+Colorado Springs,13380,54
+Colorado Springs,13397,10
+Colorado Springs,13411,22
+Colorado Springs,13415,243
+Colorado Springs,13430,239
+Colorado Springs,13462,136
+Colorado Springs,13474,62
+Colorado Springs,13495,226
+Colorado Springs,13508,70
+Colorado Springs,13519,123
+Colorado Springs,13567,12
+Colorado Springs,13571,29
+Colorado Springs,13579,227
+Colorado Springs,13652,78
+Colorado Springs,13713,22
+Colorado Springs,13802,22
+Colorado Springs,13812,13
+Colorado Springs,13906,491
+Colorado Springs,14261,10
+Colorado Springs,14357,193
+Colorado Springs,14415,119
+Colorado Springs,14480,49
+Colorado Springs,14482,23
+Colorado Springs,14649,12
+Colorado Springs,15077,55
+Colorado Springs,15501,241
+Colorado Springs,15588,276
+Colorado Springs,15653,17
+Colorado Springs,15960,130
+Colorado Springs,15961,29
+Colorado Springs,16085,44
+Colorado Springs,16154,15
+Colorado Springs,16300,37
+Colorado Springs,16556,20
+Colorado Springs,16720,32
+Colorado Springs,17289,34
+Colorado Springs,17299,80
+Colorado Springs,17408,283
+Colorado Springs,17739,15
+Colorado Springs,18031,15
+Colorado Springs,18194,15
+Colorado Springs,18965,17
+Colorado Springs,20046,14
+Colorado Springs,20224,361
+Colorado Springs,20226,10
+Colorado Springs,21685,16
+Colorado Springs,22006,14
+Colorado Springs,22254,164
+Colorado Springs,22800,107
+Colorado Springs,23268,30
+Colorado Springs,23648,29
+Colorado Springs,23836,18
+Colorado Springs,24006,100
+Colorado Springs,24572,53
+Colorado Springs,24785,126
+Colorado Springs,25131,49
+Colorado Springs,25299,112
+Colorado Springs,25893,10
+Colorado Springs,26172,54
+Colorado Springs,26173,22
+Colorado Springs,26175,11
+Colorado Springs,26208,191
+Colorado Springs,26365,26
+Colorado Springs,26414,230
+Colorado Springs,26416,32
+Colorado Springs,26669,54
+Colorado Springs,26883,36
+Colorado Springs,27053,187
+Colorado Springs,27190,97
+Colorado Springs,27191,39
+Colorado Springs,27994,21
+Colorado Springs,28158,19
+Colorado Springs,28201,106
+Colorado Springs,28464,46
+Colorado Springs,28816,75
+Colorado Springs,29303,32
+Colorado Springs,29339,180
+Colorado Springs,29688,56
+Colorado Springs,29857,19
+Colorado Springs,29865,68
+Colorado Springs,30041,76
+Colorado Springs,30070,82
+Colorado Springs,30104,26
+Colorado Springs,31187,86
+Colorado Springs,31471,10
+Colorado Springs,33476,14
+Colorado Springs,33636,14
+Colorado Springs,33948,12
+Colorado Springs,34993,16
+Colorado Springs,35111,325
+Colorado Springs,35376,12
+Colorado Springs,35470,180
+Colorado Springs,35478,28
+Colorado Springs,35488,17
+Colorado Springs,35489,989
+Colorado Springs,35573,37
+Colorado Springs,35582,11
+Colorado Springs,35747,15
+Colorado Springs,35752,94
+Colorado Springs,35753,14
+Colorado Springs,35770,342
+Colorado Springs,35771,50
+Colorado Springs,35849,13
+Colorado Springs,35936,48
+Colorado Springs,35938,10
+Colorado Springs,36008,17
+Colorado Springs,36225,14
+Colorado Springs,36362,714
+Colorado Springs,36457,317
+Colorado Springs,36696,20
+Colorado Springs,37058,10
+Colorado Springs,37066,136
+Colorado Springs,37116,24
+Colorado Springs,37280,12
+Colorado Springs,37570,24
+Colorado Springs,37878,40
+Colorado Springs,38237,15
+Colorado Springs,38466,49
+Colorado Springs,38757,541
+Colorado Springs,38768,79
+Colorado Springs,39734,70
+Colorado Springs,39823,17
+Colorado Springs,39860,119
+Colorado Springs,40116,55
+Colorado Springs,40381,17
+Colorado Springs,40402,98
+Colorado Springs,40439,18
+Colorado Springs,40831,39
+Colorado Springs,41026,93
+Colorado Springs,41069,175
+Colorado Springs,41079,14
+Colorado Springs,41342,15
+Colorado Springs,41608,81
+Colorado Springs,42444,41
+Colorado Springs,43064,117
+Colorado Springs,43797,51
+Colorado Springs,43802,16
+Colorado Springs,43910,12
+Colorado Springs,43944,32
+Colorado Springs,43945,24
+Colorado Springs,46701,10
+Colorado Springs,47345,14
+Colorado Springs,48086,76
+Colorado Springs,48610,104
+Colorado Springs,49494,23
+Colorado Springs,49602,163
+Colorado Springs,50458,33
+Colorado Springs,50860,17
+Colorado Springs,50863,40
+Colorado Springs,53488,62
+Colorado Springs,53985,80
+Colorado Springs,54139,36
+Colorado Springs,54451,12
+Colorado Springs,54719,20
+Colorado Springs,54893,38
+Colorado Springs,55360,64
+Colorado Springs,58044,21
+Denver,0,67
+Denver,14,22
+Denver,143,78
+Denver,167,12
+Denver,263,106
+Denver,875,96
+Denver,1904,15
+Denver,2825,37
+Denver,2918,21
+Denver,2998,27
+Denver,6617,29
+Denver,6649,25
+Denver,7571,263
+Denver,7666,87
+Denver,36363,268
+Denver,39235,163
+Fort Collins,6,12
+Fort Collins,38,31
+Fort Collins,151,65
+Fort Collins,154,490
+Fort Collins,159,35
+Fort Collins,216,21
+Fort Collins,221,109
+Fort Collins,231,117
+Fort Collins,232,24
+Fort Collins,235,20
+Fort Collins,241,372
+Fort Collins,244,126
+Fort Collins,248,1929
+Fort Collins,250,564
+Fort Collins,262,11
+Fort Collins,267,136
+Fort Collins,272,41
+Fort Collins,279,31
+Fort Collins,281,56
+Fort Collins,282,79
+Fort Collins,294,12
+Fort Collins,623,511
+Fort Collins,629,240
+Fort Collins,637,780
+Fort Collins,638,12
+Fort Collins,640,138
+Fort Collins,646,13
+Fort Collins,651,387
+Fort Collins,663,10
+Fort Collins,686,41
+Fort Collins,710,12
+Fort Collins,833,18
+Fort Collins,852,186
+Fort Collins,886,10
+Fort Collins,1070,40
+Fort Collins,1071,32
+Fort Collins,1073,1026
+Fort Collins,1141,42
+Fort Collins,1239,13
+Fort Collins,1303,323
+Fort Collins,1304,341
+Fort Collins,1446,594
+Fort Collins,1448,19
+Fort Collins,1450,86
+Fort Collins,1451,11
+Fort Collins,1452,72
+Fort Collins,1455,34
+Fort Collins,1502,201
+Fort Collins,1770,213
+Fort Collins,1860,85
+Fort Collins,1869,184
+Fort Collins,1875,13
+Fort Collins,1878,2011
+Fort Collins,1880,201
+Fort Collins,1881,29
+Fort Collins,1888,87
+Fort Collins,1889,30
+Fort Collins,1895,19
+Fort Collins,1896,207
+Fort Collins,1906,11
+Fort Collins,1914,198
+Fort Collins,1916,15
+Fort Collins,1954,43
+Fort Collins,2138,305
+Fort Collins,2149,73
+Fort Collins,2155,77
+Fort Collins,2160,153
+Fort Collins,2168,1275
+Fort Collins,2171,11
+Fort Collins,2205,47
+Fort Collins,2806,228
+Fort Collins,2808,217
+Fort Collins,2811,155
+Fort Collins,2812,446
+Fort Collins,2814,140
+Fort Collins,2815,15
+Fort Collins,2816,12
+Fort Collins,2818,27
+Fort Collins,2819,211
+Fort Collins,2821,28
+Fort Collins,2822,429
+Fort Collins,2823,126
+Fort Collins,2825,181
+Fort Collins,2826,299
+Fort Collins,2829,625
+Fort Collins,2832,46
+Fort Collins,2833,678
+Fort Collins,2836,908
+Fort Collins,2838,53
+Fort Collins,2840,672
+Fort Collins,2841,252
+Fort Collins,2842,276
+Fort Collins,2845,268
+Fort Collins,2846,210
+Fort Collins,2847,190
+Fort Collins,2850,253
+Fort Collins,2853,177
+Fort Collins,2855,276
+Fort Collins,2857,72
+Fort Collins,2858,11
+Fort Collins,2861,315
+Fort Collins,2865,306
+Fort Collins,2869,312
+Fort Collins,2874,1314
+Fort Collins,2875,929
+Fort Collins,2876,36
+Fort Collins,2879,126
+Fort Collins,2880,209
+Fort Collins,2881,763
+Fort Collins,2883,16
+Fort Collins,2888,32
+Fort Collins,2889,66
+Fort Collins,2892,40
+Fort Collins,2893,182
+Fort Collins,2894,190
+Fort Collins,2895,65
+Fort Collins,2896,354
+Fort Collins,2897,185
+Fort Collins,2899,17
+Fort Collins,2901,13
+Fort Collins,2902,35
+Fort Collins,2904,203
+Fort Collins,2905,52
+Fort Collins,2908,27
+Fort Collins,2912,74
+Fort Collins,2913,86
+Fort Collins,2914,160
+Fort Collins,2917,82
+Fort Collins,2925,27
+Fort Collins,2926,18
+Fort Collins,2931,11
+Fort Collins,2932,145
+Fort Collins,2933,73
+Fort Collins,2934,133
+Fort Collins,2945,84
+Fort Collins,2946,29
+Fort Collins,2947,203
+Fort Collins,2948,29
+Fort Collins,2950,100
+Fort Collins,2951,78
+Fort Collins,2954,25
+Fort Collins,2969,44
+Fort Collins,2975,80
+Fort Collins,2976,367
+Fort Collins,2981,10
+Fort Collins,2988,49
+Fort Collins,2996,89
+Fort Collins,3001,17
+Fort Collins,3007,16
+Fort Collins,3008,11
+Fort Collins,3009,42
+Fort Collins,3010,36
+Fort Collins,3016,14
+Fort Collins,3025,18
+Fort Collins,3027,24
+Fort Collins,3043,516
+Fort Collins,3044,91
+Fort Collins,3050,60
+Fort Collins,3052,82
+Fort Collins,3054,11
+Fort Collins,3109,266
+Fort Collins,3596,169
+Fort Collins,3631,109
+Fort Collins,3637,165
+Fort Collins,3639,1467
+Fort Collins,3674,37
+Fort Collins,3712,13
+Fort Collins,4616,27
+Fort Collins,4617,22
+Fort Collins,4648,18
+Fort Collins,4841,26
+Fort Collins,5207,26
+Fort Collins,5401,14
+Fort Collins,5408,30
+Fort Collins,5588,488
+Fort Collins,5589,329
+Fort Collins,5592,17
+Fort Collins,5603,48
+Fort Collins,5607,306
+Fort Collins,5628,26
+Fort Collins,6106,18
+Fort Collins,6169,35
+Fort Collins,6184,181
+Fort Collins,6191,226
+Fort Collins,6201,77
+Fort Collins,6207,17
+Fort Collins,6208,257
+Fort Collins,6220,60
+Fort Collins,6228,11
+Fort Collins,6506,38
+Fort Collins,6567,27
+Fort Collins,6580,491
+Fort Collins,6581,143
+Fort Collins,6587,360
+Fort Collins,6590,85
+Fort Collins,6596,183
+Fort Collins,6601,670
+Fort Collins,6606,35
+Fort Collins,6609,50
+Fort Collins,6614,100
+Fort Collins,6633,19
+Fort Collins,6636,38
+Fort Collins,6738,36
+Fort Collins,6753,14
+Fort Collins,6782,63
+Fort Collins,6832,95
+Fort Collins,6895,186
+Fort Collins,6898,21
+Fort Collins,6899,464
+Fort Collins,6901,440
+Fort Collins,6902,720
+Fort Collins,6903,631
+Fort Collins,6904,27
+Fort Collins,6905,358
+Fort Collins,6906,417
+Fort Collins,6907,217
+Fort Collins,6908,218
+Fort Collins,6909,11
+Fort Collins,6912,28
+Fort Collins,6913,67
+Fort Collins,6914,55
+Fort Collins,6915,62
+Fort Collins,6916,207
+Fort Collins,6917,81
+Fort Collins,6923,148
+Fort Collins,6924,27
+Fort Collins,6934,27
+Fort Collins,6937,11
+Fort Collins,6938,37
+Fort Collins,6977,10
+Fort Collins,6984,24
+Fort Collins,6988,59
+Fort Collins,7103,219
+Fort Collins,7104,34
+Fort Collins,7106,43
+Fort Collins,7108,68
+Fort Collins,7112,10
+Fort Collins,7113,12
+Fort Collins,7115,77
+Fort Collins,7147,571
+Fort Collins,7148,222
+Fort Collins,7150,533
+Fort Collins,7152,128
+Fort Collins,7153,14
+Fort Collins,7169,484
+Fort Collins,7170,111
+Fort Collins,7199,10
+Fort Collins,7205,34
+Fort Collins,7207,76
+Fort Collins,7225,16
+Fort Collins,7226,232
+Fort Collins,7234,78
+Fort Collins,7242,75
+Fort Collins,7359,520
+Fort Collins,7363,19
+Fort Collins,7368,128
+Fort Collins,7384,12
+Fort Collins,7464,1967
+Fort Collins,7517,676
+Fort Collins,7519,14
+Fort Collins,7525,268
+Fort Collins,7531,83
+Fort Collins,7534,103
+Fort Collins,7535,76
+Fort Collins,7544,92
+Fort Collins,7551,80
+Fort Collins,7552,120
+Fort Collins,7553,130
+Fort Collins,7555,248
+Fort Collins,7557,356
+Fort Collins,7558,12
+Fort Collins,7561,193
+Fort Collins,7563,82
+Fort Collins,7568,14
+Fort Collins,7577,34
+Fort Collins,7580,380
+Fort Collins,7582,386
+Fort Collins,7587,85
+Fort Collins,7588,148
+Fort Collins,7589,47
+Fort Collins,7599,65
+Fort Collins,7602,426
+Fort Collins,7611,11
+Fort Collins,7624,26
+Fort Collins,7638,71
+Fort Collins,7653,29
+Fort Collins,7673,111
+Fort Collins,7746,63
+Fort Collins,7984,28
+Fort Collins,7999,19
+Fort Collins,8001,10
+Fort Collins,8004,66
+Fort Collins,8005,91
+Fort Collins,8008,13
+Fort Collins,8113,170
+Fort Collins,8124,270
+Fort Collins,8125,446
+Fort Collins,8126,27
+Fort Collins,8155,41
+Fort Collins,8240,177
+Fort Collins,8242,42
+Fort Collins,8255,26
+Fort Collins,8256,333
+Fort Collins,8379,608
+Fort Collins,8401,73
+Fort Collins,8431,90
+Fort Collins,8466,88
+Fort Collins,8534,24
+Fort Collins,8535,10
+Fort Collins,8540,11
+Fort Collins,8544,41
+Fort Collins,8724,540
+Fort Collins,8888,376
+Fort Collins,8889,62
+Fort Collins,8893,242
+Fort Collins,8894,10
+Fort Collins,8895,93
+Fort Collins,8897,38
+Fort Collins,8902,21
+Fort Collins,8908,19
+Fort Collins,8913,11
+Fort Collins,8923,23
+Fort Collins,8924,14
+Fort Collins,8937,42
+Fort Collins,9108,112
+Fort Collins,9402,2100
+Fort Collins,9407,20
+Fort Collins,9408,62
+Fort Collins,9409,248
+Fort Collins,9417,32
+Fort Collins,9564,134
+Fort Collins,9569,154
+Fort Collins,9570,129
+Fort Collins,9571,27
+Fort Collins,9574,13
+Fort Collins,9576,64
+Fort Collins,9580,83
+Fort Collins,9581,27
+Fort Collins,9597,11
+Fort Collins,9729,43
+Fort Collins,9956,111
+Fort Collins,9972,37
+Fort Collins,9995,47
+Fort Collins,10126,115
+Fort Collins,10139,392
+Fort Collins,10156,71
+Fort Collins,10196,21
+Fort Collins,10197,46
+Fort Collins,10198,73
+Fort Collins,10200,22
+Fort Collins,10202,14
+Fort Collins,10299,150
+Fort Collins,10332,135
+Fort Collins,10333,235
+Fort Collins,10334,78
+Fort Collins,10336,129
+Fort Collins,10337,86
+Fort Collins,10339,562
+Fort Collins,10340,16
+Fort Collins,10341,11
+Fort Collins,10342,20
+Fort Collins,10345,15
+Fort Collins,10346,395
+Fort Collins,10348,289
+Fort Collins,10349,105
+Fort Collins,10350,81
+Fort Collins,10351,85
+Fort Collins,10352,194
+Fort Collins,10353,782
+Fort Collins,10354,328
+Fort Collins,10355,130
+Fort Collins,10357,32
+Fort Collins,10358,29
+Fort Collins,10362,83
+Fort Collins,10363,177
+Fort Collins,10366,167
+Fort Collins,10369,32
+Fort Collins,10370,23
+Fort Collins,10371,18
+Fort Collins,10372,29
+Fort Collins,10373,16
+Fort Collins,10374,253
+Fort Collins,10376,21
+Fort Collins,10377,57
+Fort Collins,10380,14
+Fort Collins,10382,10
+Fort Collins,10383,24
+Fort Collins,10385,13
+Fort Collins,10392,19
+Fort Collins,10395,11
+Fort Collins,10396,17
+Fort Collins,10397,72
+Fort Collins,10410,13
+Fort Collins,10420,52
+Fort Collins,10423,11
+Fort Collins,10427,59
+Fort Collins,10428,56
+Fort Collins,10433,443
+Fort Collins,10497,11
+Fort Collins,10510,1315
+Fort Collins,10514,11
+Fort Collins,10535,60
+Fort Collins,10537,346
+Fort Collins,10541,220
+Fort Collins,10542,615
+Fort Collins,10543,273
+Fort Collins,10544,191
+Fort Collins,10546,217
+Fort Collins,10548,350
+Fort Collins,10553,418
+Fort Collins,10554,32
+Fort Collins,10555,11
+Fort Collins,10557,777
+Fort Collins,10562,28
+Fort Collins,10565,21
+Fort Collins,10566,74
+Fort Collins,10576,18
+Fort Collins,10580,21
+Fort Collins,10604,42
+Fort Collins,10605,60
+Fort Collins,10607,69
+Fort Collins,10613,10
+Fort Collins,10615,25
+Fort Collins,10617,245
+Fort Collins,10618,10
+Fort Collins,10620,24
+Fort Collins,10622,77
+Fort Collins,10626,13
+Fort Collins,10627,31
+Fort Collins,10628,250
+Fort Collins,10630,142
+Fort Collins,10632,16
+Fort Collins,10634,31
+Fort Collins,10637,68
+Fort Collins,10644,29
+Fort Collins,10651,135
+Fort Collins,10653,67
+Fort Collins,10659,10
+Fort Collins,10663,24
+Fort Collins,10664,18
+Fort Collins,10665,12
+Fort Collins,10667,149
+Fort Collins,10668,56
+Fort Collins,10672,11
+Fort Collins,10673,78
+Fort Collins,10679,15
+Fort Collins,10683,20
+Fort Collins,10690,24
+Fort Collins,10703,12
+Fort Collins,10725,48
+Fort Collins,10729,16
+Fort Collins,10735,18
+Fort Collins,10738,10
+Fort Collins,10751,14
+Fort Collins,10844,35
+Fort Collins,10847,97
+Fort Collins,10850,30
+Fort Collins,10853,89
+Fort Collins,10859,11
+Fort Collins,10947,308
+Fort Collins,10955,11
+Fort Collins,10956,35
+Fort Collins,10959,64
+Fort Collins,10963,10
+Fort Collins,10989,44
+Fort Collins,11052,59
+Fort Collins,11088,93
+Fort Collins,11089,332
+Fort Collins,11170,12
+Fort Collins,11195,25
+Fort Collins,11253,70
+Fort Collins,11256,220
+Fort Collins,11258,51
+Fort Collins,11259,333
+Fort Collins,11260,25
+Fort Collins,11265,10
+Fort Collins,11266,164
+Fort Collins,11268,25
+Fort Collins,11282,21
+Fort Collins,11298,16
+Fort Collins,11372,220
+Fort Collins,11373,19
+Fort Collins,11504,57
+Fort Collins,11514,392
+Fort Collins,11516,124
+Fort Collins,11519,204
+Fort Collins,11526,98
+Fort Collins,11530,400
+Fort Collins,11532,1149
+Fort Collins,11533,63
+Fort Collins,11534,127
+Fort Collins,11535,20
+Fort Collins,11541,78
+Fort Collins,11546,80
+Fort Collins,11548,16
+Fort Collins,11551,38
+Fort Collins,11553,146
+Fort Collins,11554,85
+Fort Collins,11555,91
+Fort Collins,11557,248
+Fort Collins,11558,11
+Fort Collins,11562,63
+Fort Collins,11564,334
+Fort Collins,11565,96
+Fort Collins,11570,14
+Fort Collins,11577,52
+Fort Collins,11578,227
+Fort Collins,11581,187
+Fort Collins,11583,12
+Fort Collins,11587,35
+Fort Collins,11588,15
+Fort Collins,11595,40
+Fort Collins,11607,12
+Fort Collins,11610,11
+Fort Collins,11619,13
+Fort Collins,11622,596
+Fort Collins,11654,22
+Fort Collins,11657,11
+Fort Collins,11658,16
+Fort Collins,12395,252
+Fort Collins,12557,2100
+Fort Collins,12573,16
+Fort Collins,12587,12
+Fort Collins,12594,10
+Fort Collins,12595,62
+Fort Collins,12892,44
+Fort Collins,13101,2100
+Fort Collins,13113,443
+Fort Collins,13117,19
+Fort Collins,13125,10
+Fort Collins,13132,503
+Fort Collins,13134,53
+Fort Collins,13139,64
+Fort Collins,13145,299
+Fort Collins,13153,1197
+Fort Collins,13156,352
+Fort Collins,13157,912
+Fort Collins,13162,536
+Fort Collins,13170,163
+Fort Collins,13177,105
+Fort Collins,13185,61
+Fort Collins,13186,140
+Fort Collins,13199,220
+Fort Collins,13208,14
+Fort Collins,13210,16
+Fort Collins,13211,115
+Fort Collins,13215,272
+Fort Collins,13217,64
+Fort Collins,13221,18
+Fort Collins,13229,97
+Fort Collins,13232,134
+Fort Collins,13233,33
+Fort Collins,13242,306
+Fort Collins,13243,83
+Fort Collins,13244,30
+Fort Collins,13245,93
+Fort Collins,13251,177
+Fort Collins,13252,45
+Fort Collins,13256,47
+Fort Collins,13265,113
+Fort Collins,13280,38
+Fort Collins,13288,273
+Fort Collins,13291,124
+Fort Collins,13295,194
+Fort Collins,13301,2095
+Fort Collins,13307,460
+Fort Collins,13310,13
+Fort Collins,13320,117
+Fort Collins,13342,102
+Fort Collins,13343,11
+Fort Collins,13346,395
+Fort Collins,13367,142
+Fort Collins,13371,79
+Fort Collins,13381,193
+Fort Collins,13389,46
+Fort Collins,13393,41
+Fort Collins,13408,17
+Fort Collins,13413,60
+Fort Collins,13429,23
+Fort Collins,13439,26
+Fort Collins,13448,24
+Fort Collins,13450,87
+Fort Collins,13452,168
+Fort Collins,13458,54
+Fort Collins,13468,13
+Fort Collins,13482,27
+Fort Collins,13489,32
+Fort Collins,13499,37
+Fort Collins,13501,66
+Fort Collins,13502,50
+Fort Collins,13512,296
+Fort Collins,13524,10
+Fort Collins,13530,28
+Fort Collins,13533,151
+Fort Collins,13556,505
+Fort Collins,13562,55
+Fort Collins,13570,21
+Fort Collins,13583,37
+Fort Collins,13585,11
+Fort Collins,13597,13
+Fort Collins,13799,10
+Fort Collins,13806,17
+Fort Collins,13808,43
+Fort Collins,13811,107
+Fort Collins,13814,210
+Fort Collins,14077,10
+Fort Collins,14084,10
+Fort Collins,14481,32
+Fort Collins,14639,135
+Fort Collins,14692,22
+Fort Collins,14699,77
+Fort Collins,15191,12
+Fort Collins,15283,98
+Fort Collins,15292,13
+Fort Collins,15293,38
+Fort Collins,15302,13
+Fort Collins,15533,11
+Fort Collins,15535,20
+Fort Collins,15536,10
+Fort Collins,15538,185
+Fort Collins,15543,23
+Fort Collins,15545,34
+Fort Collins,15621,39
+Fort Collins,15624,58
+Fort Collins,15659,60
+Fort Collins,15713,33
+Fort Collins,15816,38
+Fort Collins,16118,370
+Fort Collins,16120,75
+Fort Collins,16263,13
+Fort Collins,16264,73
+Fort Collins,16265,58
+Fort Collins,16496,14
+Fort Collins,16631,22
+Fort Collins,16632,61
+Fort Collins,16718,610
+Fort Collins,16802,54
+Fort Collins,17044,82
+Fort Collins,17048,22
+Fort Collins,17050,110
+Fort Collins,17293,50
+Fort Collins,17364,25
+Fort Collins,18243,38
+Fort Collins,18285,26
+Fort Collins,18288,13
+Fort Collins,18378,110
+Fort Collins,18392,15
+Fort Collins,18394,32
+Fort Collins,18397,17
+Fort Collins,18502,69
+Fort Collins,18503,36
+Fort Collins,18504,16
+Fort Collins,18564,34
+Fort Collins,18841,313
+Fort Collins,19351,72
+Fort Collins,19950,65
+Fort Collins,20026,32
+Fort Collins,20045,10
+Fort Collins,20800,130
+Fort Collins,21241,14
+Fort Collins,21308,69
+Fort Collins,21787,13
+Fort Collins,21788,13
+Fort Collins,21792,46
+Fort Collins,21956,11
+Fort Collins,22256,35
+Fort Collins,22735,94
+Fort Collins,22981,45
+Fort Collins,23207,37
+Fort Collins,23365,213
+Fort Collins,23576,91
+Fort Collins,23734,37
+Fort Collins,23796,93
+Fort Collins,23823,53
+Fort Collins,23969,257
+Fort Collins,23989,370
+Fort Collins,24370,36
+Fort Collins,24491,61
+Fort Collins,25078,1211
+Fort Collins,25575,33
+Fort Collins,25577,57
+Fort Collins,25685,136
+Fort Collins,25859,33
+Fort Collins,25999,10
+Fort Collins,26041,11
+Fort Collins,26133,11
+Fort Collins,26135,22
+Fort Collins,26145,217
+Fort Collins,26147,61
+Fort Collins,26220,46
+Fort Collins,26237,14
+Fort Collins,26319,10
+Fort Collins,26458,458
+Fort Collins,26503,44
+Fort Collins,26536,22
+Fort Collins,26539,16
+Fort Collins,26613,68
+Fort Collins,26641,16
+Fort Collins,26711,122
+Fort Collins,26742,42
+Fort Collins,26748,12
+Fort Collins,26749,10
+Fort Collins,26772,10
+Fort Collins,26813,142
+Fort Collins,26948,60
+Fort Collins,26964,89
+Fort Collins,26967,12
+Fort Collins,26969,12
+Fort Collins,27067,12
+Fort Collins,27079,12
+Fort Collins,27143,1137
+Fort Collins,27144,91
+Fort Collins,27534,217
+Fort Collins,27717,125
+Fort Collins,27980,19
+Fort Collins,27997,315
+Fort Collins,28114,601
+Fort Collins,28177,30
+Fort Collins,28219,73
+Fort Collins,28368,14
+Fort Collins,28518,14
+Fort Collins,29477,224
+Fort Collins,29850,255
+Fort Collins,29851,175
+Fort Collins,29855,19
+Fort Collins,29869,12
+Fort Collins,29873,16
+Fort Collins,30638,12
+Fort Collins,30762,71
+Fort Collins,30770,30
+Fort Collins,30807,212
+Fort Collins,30996,28
+Fort Collins,31187,207
+Fort Collins,31591,67
+Fort Collins,31596,16
+Fort Collins,32046,781
+Fort Collins,32123,40
+Fort Collins,32347,28
+Fort Collins,32717,151
+Fort Collins,32852,83
+Fort Collins,32916,219
+Fort Collins,32933,33
+Fort Collins,33146,64
+Fort Collins,33395,12
+Fort Collins,33620,25
+Fort Collins,33795,70
+Fort Collins,34170,20
+Fort Collins,34478,21
+Fort Collins,34480,20
+Fort Collins,34779,44
+Fort Collins,34872,29
+Fort Collins,34966,15
+Fort Collins,34989,124
+Fort Collins,35112,28
+Fort Collins,35144,12
+Fort Collins,35207,20
+Fort Collins,35284,104
+Fort Collins,35285,23
+Fort Collins,35286,87
+Fort Collins,35346,22
+Fort Collins,35370,55
+Fort Collins,35382,42
+Fort Collins,35444,70
+Fort Collins,35479,12
+Fort Collins,35482,105
+Fort Collins,36003,22
+Fort Collins,36004,21
+Fort Collins,36020,16
+Fort Collins,36143,12
+Fort Collins,36271,62
+Fort Collins,36366,43
+Fort Collins,36367,16
+Fort Collins,36666,133
+Fort Collins,37057,12
+Fort Collins,37212,87
+Fort Collins,37250,36
+Fort Collins,38318,14
+Fort Collins,38329,185
+Fort Collins,38543,30
+Fort Collins,38899,156
+Fort Collins,38992,13
+Fort Collins,39087,42
+Fort Collins,39499,17
+Fort Collins,39610,196
+Fort Collins,39782,11
+Fort Collins,39785,132
+Fort Collins,39947,12
+Fort Collins,40001,19
+Fort Collins,40210,22
+Fort Collins,40225,28
+Fort Collins,40304,69
+Fort Collins,40354,89
+Fort Collins,40783,23
+Fort Collins,40807,42
+Fort Collins,40815,94
+Fort Collins,40832,323
+Fort Collins,41059,13
+Fort Collins,41078,88
+Fort Collins,41604,2100
+Fort Collins,41659,11
+Fort Collins,42016,66
+Fort Collins,42125,12
+Fort Collins,42243,44
+Fort Collins,42554,26
+Fort Collins,42953,55
+Fort Collins,43816,12
+Fort Collins,43943,35
+Fort Collins,43979,76
+Fort Collins,43980,21
+Fort Collins,44006,183
+Fort Collins,44189,153
+Fort Collins,44296,15
+Fort Collins,45123,36
+Fort Collins,45912,25
+Fort Collins,47261,80
+Fort Collins,47889,34
+Fort Collins,48076,22
+Fort Collins,48179,199
+Fort Collins,49136,16
+Fort Collins,49558,16
+Fort Collins,49646,12
+Fort Collins,49877,51
+Fort Collins,49885,21
+Fort Collins,49933,667
+Fort Collins,50529,199
+Fort Collins,50667,10
+Fort Collins,50770,12
+Fort Collins,51103,30
+Fort Collins,51189,12
+Fort Collins,51398,43
+Fort Collins,53127,42
+Fort Collins,53508,365
+Fort Collins,53509,223
+Fort Collins,53697,32
+Fort Collins,54251,18
+Fort Collins,54814,23
+Fort Collins,55190,35
+Fort Collins,55410,23
+Fort Collins,55574,22
+Fort Collins,55575,91
+Fort Collins,56255,52
+Fort Collins,56330,11
+Fort Collins,56393,34
+Fort Collins,56521,112
+Fort Collins,56571,109
+Fort Collins,56685,19
+Fort Collins,57402,20
+Fort Collins,57811,38
+Fort Collins,57812,27
+Fort Collins,58038,28
+Fort Collins,58040,13
+Lakewood,0,22
+Lakewood,143,58
+Lakewood,167,15
+Lakewood,263,68
+Lakewood,552,13
+Lakewood,878,20
+Lakewood,1079,13
+Lakewood,4842,11
+Lakewood,6622,72

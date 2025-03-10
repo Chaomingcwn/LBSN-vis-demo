@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive 3D Data Analysis</title>
+    <script src="//unpkg.com/aframe"></script>
+    <style>
+        /* General Page Layout */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end; /* Keeps content in lower half */
+            position: relative;
+        }
+        
+        /* Background Image */
+        #background-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url("img/preview-net.png") no-repeat center center;
+            background-size: cover;
+            z-index: -1; /* Pushes background behind content */
+        }
+
+        /* Content Box (Lower Half) */
+        #content {
+            width: 100%;
+            min-height: 50vh; /* Keeps content in lower half */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: rgba(34, 34, 34, 0.9); /* Dark overlay for better readability */
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            z-index: 1; /* Ensures content is above the background */
+        }
+
+        /* Title */
+        #content h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        /* Description */
+        #content p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        /* Click to Start Button */
+        #btn1 {
+            padding: 15px 30px;
+            font-size: 20px;
+            position: relative;
+            background-color: steelblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        #btn2 {
+            padding: 15px 30px;
+            font-size: 20px;
+            position: relative;
+            background-color: steelblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background-color: darkblue;
+        }
+
+        /* Hyperlink Styling */
+        a {
+            color: #8a5fff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Image -->
+    <div id="background-container"></div>
+
+    <!-- Content Box (Lower Half) -->
+    <div id="content">
+        <h1>Interactive 2.5/3D Location-Based Social Network Data Analysis</h1>
+        <p>Use dataset <a href="https://snap.stanford.edu/data/loc-brightkite.html" target="_blank">Brightkite Dataset</a> as an example.</p>
+        
+        <!-- Click to Start Button -->
+        <button id = "btn1" class="button" onclick="window.location.href='./2-5d-globe-vis.html'">Start 2.5D Visualization of Checkins</button>
+        <!-- Click to Start Button -->
+        <button id = "btn2" class="button" onclick="window.location.href='./test_vrNetvis.html'">Start 3D Visualization of Friendship Network</button>
+
+    </div>
+
+</body>
+</html>

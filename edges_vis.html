@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A-Frame 3D Network Visualization</title>
+    <meta name="description" content="Filtered user edges visualization in VR."></meta>
+
+    <script src="//unpkg.com/aframe"></script>
+  </head>
+  <body>
+    <a-scene stats background="color: #001">
+      <a-camera
+        position="0 0 10"
+        look-controls="pointerLockEnabled: false"
+        wasd-controls="fly: true; acceleration: 20;"
+      ></a-camera>
+      <a-entity id="network"></a-entity>
+    </a-scene>
+
+    <script>
+      // Load user list and filtered edges data
+      const userList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]; // Replace with actual user IDs
+      const filteredEdges = [
+        { source: 0, target: 1 },
+        { source: 0, target: 3 },
+        { source: 0, target: 4 },
+        { source: 0, target: 6 },
+        { source: 0, target: 7 }
+      ];
+
+      const nodePositions = {};
+      const radius = 5;
+      const totalNodes = userList.length;
+      userList.forEach((user, i) => {
+        const angle = (i / totalNodes) * Math.PI * 2;
+        nodePositions[user] = {
+          x: radius * Math.cos(angle),
+          y: Math.random() * 4 - 2,
+          z: radius * Math.sin(angle)
+        };
+      });
+
+      const networkEntity = document.getElementById('network');
+      filteredEdges.forEach(edge => {
+        const { source, target } = edge;
+        if (nodePositions[source] && nodePositions[target]) {
+          const line = document.createElement('a-entity');
+          line.setAttribute('line', `start: ${nodePositions[source].x} ${nodePositions[source].y} ${nodePositions[source].z}; end: ${nodePositions[target].x} ${nodePositions[target].y} ${nodePositions[target].z}; color: white`);
+          networkEntity.appendChild(line);
+        }
+      });
+
+      userList.forEach(user => {
+        const pos = nodePositions[user];
+        const node = document.createElement('a-sphere');
+        node.setAttribute('position', `${pos.x} ${pos.y} ${pos.z}`);
+        node.setAttribute('radius', '0.2');
+        node.setAttribute('color', 'blue');
+        networkEntity.appendChild(node);
+      });
+    </script>
+  </body>
+</html>

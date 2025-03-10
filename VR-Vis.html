@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VR-Vis of Checkins and Friendships</title>
+    <script src="//unpkg.com/aframe"></script>
+    <script src="//unpkg.com/aframe-globe-component"></script>
+    <!-- <script src="//unpkg.com/aframe-forcegraph-component"></script> -->
+    <script src="//unpkg.com/3d-force-graph-vr"></script>
+
+
+    <!-- Include jQuery & Select2 CSS/JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0/dist/css/select2.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0/dist/js/select2.min.js"></script>
+    <script type="text/javascript" src ="pkg/multiselect-dropdown.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal columns for top row */
+            grid-template-rows: 50vh 50vh; /* Two rows (top: 50%, bottom: 50%) */
+            height: 100vh;
+        }
+        #scene1, #scene2 {
+            width: 100%;
+            height: 100%;
+            background: black;
+        }
+        #content {
+            grid-column: 1 / span 2; /* UI section spans both columns */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            background-color: steelblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Left A-Frame Scene -->
+    <div id="scene1">
+        <a-scene background="color: #001">
+            <a-entity position="0 0 250">
+                <a-entity cursor="rayOrigin: mouse; mouseCursorStylesEnabled: true;" raycaster="objects: [globe]; interval: 100"></a-entity>
+                <a-entity laser-controls="hand: left" raycaster="objects: [globe]; interval: 100; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+                <a-entity laser-controls="hand: right" raycaster="objects: [globe]; interval: 100; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+    
+                <a-camera look-controls="pointerLockEnabled: false" wasd-controls="fly: true; acceleration: 500;">
+                    <a-text
+                    id="globe-tooltip"
+                    position="0 -0.6 -1"
+                    width="2"
+                    align="center"
+                    color="lavender"
+                    ></a-text>
+                </a-camera>
+            </a-entity>
+    
+            <!-- The interactive 3D globe -->
+            <a-entity id="globe" globe="globe-image-url: //unpkg.com/three-globe/example/img/earth-night.jpg;"></a-entity>
+        </a-scene>
+    </div>
+
+    <!-- Right A-Frame Scene -->
+    <div id="scene2">
+        <a-scene background="color: #002">
+        <a-entity position="0 0 250">
+            <a-entity cursor="rayOrigin: mouse; mouseCursorStylesEnabled: true;" raycaster="objects: [forcegraph];"></a-entity>
+            <a-entity laser-controls="hand: left" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+            <a-entity laser-controls="hand: right" raycaster="objects: [forcegraph]; lineColor: steelblue; lineOpacity: 0.85;"></a-entity>
+      
+            <a-camera look-controls="pointerLockEnabled: false" wasd-controls="fly: true; acceleration: 500;">
+              <!-- <a-cursor color="lavender" opacity="0.5" raycaster="objects: [forcegraph]"></a-cursor> -->
+              <a-text
+                id="forcegraph-tooltip"
+                position="0 -0.6 -1"
+                width="2"
+                align="center"
+                color="lavender"
+              ></a-text>
+            </a-camera>
+        </a-entity>
+
+        <a-entity forcegraph="
+              json-url: data_process/truncated_node_data.json;
+              node-auto-color-by: group;
+              on-node-hover: node => document.querySelector('#forcegraph-tooltip').setAttribute('value', node ? `user ${node.id}: ${node.friends} friends` : '');
+            "></a-entity>
+          </a-scene>
+
+
+    </div>
+
+ <!-- Bottom UI Controls -->
+ <div id="controls">
+    <h2>Filter Data</h2>
+
+    <!-- User Selection (Multiple) -->
+    <label for="userSelect">Select Users:</label>
+    <select id="userSelect" multiple>
+        <option value="user1">User 1</option>
+        <option value="user2">User 2</option>
+        <option value="user3">User 3</option>
+        <option value="user4">User 4</option>
+    </select>
+
+    <!-- City Selection (Multiple) -->
+    <label for="citySelect">Select Cities:</label>
+    <select id="citySelect" multiple>
+        <option value="New York">New York</option>
+        <option value="London">London</option>
+        <option value="Tokyo">Tokyo</option>
+        <option value="Paris">Paris</option>
+    </select>
+
+    <!-- Time Range Selection -->
+    <label for="timeStart">Start Time:</label>
+    <input type="range" id="timeStart" min="0" max="24" step="1" value="0">
+
+    <label for="timeEnd">End Time:</label>
+    <input type="range" id="timeEnd" min="0" max="24" step="1" value="24">
+
+    <!-- Apply Filters Button -->
+    <button onclick="applyFilters()">Apply Filters</button>
+</div>
+
+<script>
+    function getSelectedValues(selectElement) {
+        return Array.from(selectElement.selectedOptions).map(option => option.value);
+    }
+
+    function applyFilters() {
+        // Get multiple selected users and cities
+        const selectedUsers = getSelectedValues(document.getElementById("userSelect"));
+        const selectedCities = getSelectedValues(document.getElementById("citySelect"));
+        const timeStart = document.getElementById("timeStart").value;
+        const timeEnd = document.getElementById("timeEnd").value;
+
+        console.log("Users:", selectedUsers, "Cities:", selectedCities, "Time:", timeStart, "-", timeEnd);
+
+        // Example: Change A-Frame object color based on the first selected user
+        const box = document.getElementById("filteredObject");
+        if (selectedUsers.includes("user1")) {
+            box.setAttribute("color", "red");
+        } else if (selectedUsers.includes("user2")) {
+            box.setAttribute("color", "green");
+        } else {
+            box.setAttribute("color", "blue");
+        }
+    }
+</script>
+<!-- VR content for scene 1 -->
+<script type="module" src="../globe-vr.js"></script>
+<script type="module" src="../net-vr.js"></script>
+
+    
+
+</body>
+</html>
