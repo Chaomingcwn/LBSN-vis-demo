@@ -22,7 +22,7 @@
       let selectedNode = null; // Track selected node
 
       // Load Network Data
-      fetch('../data_process/truncated_node_data.json')
+      fetch('./data_process/truncated_node_data.json')
           .then(response => response.json())
           .then(data => {
               graphData = data; // Store the data
