@@ -2,8 +2,42 @@
 <html lang="en">
 <head>
   <style> 
-      body { margin: 0; }
-      #3d-graph { width: 100vw; height: 100vh; display: block; }
+body {
+    margin: 0;
+}
+
+#3d-graph {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+
+/* Updated button container to align buttons at bottom-right */
+#button-container {
+    position: absolute;
+    bottom: 10px;
+    right: 80px;  /* Align near the default VR button */
+    display: flex;
+    gap: 20px; /* Adds spacing between buttons */
+}
+
+/* General button styling */
+.btn {
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.btn:hover {
+    background-color: #ff2e00;
+}
+      
   </style>
 
   <script src="//unpkg.com/aframe"></script>
@@ -13,6 +47,17 @@
 <body>
 
   <div id="3d-graph"></div>
+  <div id="button-container">
+    <button class="btn" id="btn-1" onclick="goToNewPage('./2-5d-globe-vis.html')">Back to globe Check-ins</button>
+    <button class="btn" id="btn-2" onclick="goToNewPage('./start.html')">Back to Start</button>
+  </div>
+
+  <script>
+    // button event
+    function goToNewPage(url) {
+        window.location.href = url; // Change this to your actual destination
+    }
+</script>
 
 
   <script>

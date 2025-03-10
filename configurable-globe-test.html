@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Configurable Globe HexBin Vis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://unpkg.com/globe.gl"></script>
+
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+        }
+
+        #globeViz {
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        /* Custom UI Panel */
+        #controlPanel {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            width: 250px;
+            z-index: 10;
+        }
+
+        #controlPanel h3 {
+            margin: 0 0 10px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .control-group {
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        input[type="range"],
+        input[type="number"] {
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .apply-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .save-btn {
+            background-color: #2196F3;
+            color: white;
+        }
+
+        .apply-btn:hover {
+            background-color: #45a049;
+        }
+
+        .save-btn:hover {
+            background-color: #1976D2;
+        }
+
+        /* Button container for navigation buttons */
+        #button-container {
+            position: absolute;
+            bottom: 10px;
+            right: 50px; /* Align near the VR button */
+            display: flex;
+            gap: 10px;
+            z-index: 10;
+        }
+
+        /* Style for buttons */
+        .btn {
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #ff2e00;
+        }
+    </style>
+</head>
+<body>
+    <div id="globeViz"></div>
+
+    <!-- Custom Control Panel -->
+    <div id="controlPanel">
+        <h3>Globe Visualization Controls</h3>
+
+        <div class="control-group">
+            <label for="minCheckins">Min Check-ins</label>
+            <input type="range" id="minCheckins" min="10" max="2825" step="5" value="10">
+            <input type="number" id="minCheckinsValue" min="10" max="2825" value="10">
+        </div>
+
+        <div class="control-group">
+            <label for="maxCheckins">Max Check-ins</label>
+            <input type="range" id="maxCheckins" min="10" max="5650" step="10" value="5650">
+            <input type="number" id="maxCheckinsValue" min="10" max="5650" value="5650">
+        </div>
+
+        <button class="apply-btn" onclick="applyFilters()">Apply Filters</button>
+        <button class="save-btn" onclick="saveFilteredData()">Save Filtered Data</button>
+
+        <h3>Visualization Controllers</h3>
+
+        <div class="control-group">
+            <label for="normalization">Normalization Ratio</label>
+            <input type="range" id="normalization" min="10" max="500" step="10" value="100">
+            <input type="number" id="normalizationValue" min="10" max="500" value="100">
+        </div>
+
+        <div class="control-group">
+            <label for="hexResolution">Hex Resolution</label>
+            <input type="range" id="hexResolution" min="1" max="10" step="1" value="4">
+            <input type="number" id="hexResolutionValue" min="1" max="10" value="4">
+        </div>
+
+        <div class="control-group">
+            <input type="checkbox" id="pointerInteraction" checked>
+            <label for="pointerInteraction">Pointer Interaction</label>
+        </div>
+    </div>
+
+    <!-- Navigation Buttons at Bottom-Right -->
+    <div id="button-container">
+        <button class="btn" onclick="goToNewPage('./2-5d-globe-vis.html')">Back to Globe Check-ins</button>
+        <button class="btn" onclick="goToNewPage('./index.html')">Back to Start</button>
+    </div>
+
+    <script>
+        function goToNewPage(url) {
+            window.location.href = url;
+        }
+
+        function syncInputs(rangeId, numberId) {
+            const range = document.getElementById(rangeId);
+            const number = document.getElementById(numberId);
+
+            range.addEventListener('input', () => {
+                number.value = range.value;
+            });
+
+            number.addEventListener('input', () => {
+                range.value = number.value;
+            });
+        }
+
+        syncInputs("minCheckins", "minCheckinsValue");
+        syncInputs("maxCheckins", "maxCheckinsValue");
+        syncInputs("normalization", "normalizationValue");
+        syncInputs("hexResolution", "hexResolutionValue");
+
+        function applyFilters() {
+            const minCheckins = document.getElementById("minCheckins").value;
+            const maxCheckins = document.getElementById("maxCheckins").value;
+            const normalization = document.getElementById("normalization").value;
+            const hexResolution = document.getElementById("hexResolution").value;
+            const pointerInteraction = document.getElementById("pointerInteraction").checked;
+
+            console.log("Applying Filters:", {
+                minCheckins,
+                maxCheckins,
+                normalization,
+                hexResolution,
+                pointerInteraction
+            });
+
+            if (typeof updateVisualization === "function") {
+                updateVisualization();
+            }
+        }
+
+        function saveFilteredData() {
+            console.log("Saving Filtered Data...");
+            alert("Filtered data saved! (Implement data export here)");
+        }
+
+    </script>
+    <script type="module">
+    // Globe Visualization Code
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@latest/build/three.module.js';
+import { GUI } from 'https://cdn.jsdelivr.net/npm/lil-gui@0.18/+esm';
+import { scaleSequentialSqrt } from 'https://esm.sh/d3-scale';
+import { interpolateYlOrRd } from 'https://esm.sh/d3-scale-chromatic';
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+camera.position.set(0, 0, 300);
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+// renderer.xr.enabled = true; // ✅ Enable VR mode
+
+document.body.appendChild(renderer.domElement);
+
+let world;
+let allData = [];
+let visData = [];
+let detailedData = [];
+
+const weightColor = scaleSequentialSqrt(interpolateYlOrRd).domain([0, 1e2]);
+
+    fetch("./processed_checkins.json")
+    .then(response => response.json())
+    .then(data => {
+        allData = data;
+        visData = [...allData];
+        fetch("./detailed_checkins.json")
+            .then(response => response.json())
+            .then(data => {
+                detailedData = data;
+                mergeData();
+            })
+            .catch(error => console.error("Error loading detailed data:", error));
+    })
+    .catch(error => console.error("Error loading data:", error));
+
+function mergeData() {
+    if (!allData.length || !detailedData.length) return;
+
+    visData = allData.map(d => {
+        const detail = detailedData.find(detail => 
+            Math.abs(detail.latitude - d.latitude) < 0.0001 && 
+            Math.abs(detail.longitude - d.longitude) < 0.0001
+        );
+        return { 
+            ...d, 
+            label: detail ? `Check-ins: ${detail.total_checkIns}` : "No Label" 
+        };
+    });
+
+    updateVisualization();
+}
+
+function filterAndUpdate() {
+    const { minCheckins, maxCheckins } = settings_data;
+    visData = allData.filter(d => d.total_checkIns >= minCheckins && d.total_checkIns <= maxCheckins);
+    updateVisualization();
+}
+
+function saveVisData(filteredData) {
+    if (!filteredData.length) {
+        alert("No data to save!");
+        return;
+    }
+    const blob = new Blob([JSON.stringify(filteredData, null, 2)], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "vis_data.json";
+    a.click();
+}
+
+function updateVisualization() {
+    if (!visData.length) return;
+
+    const gData = visData.map(d => ({
+        lat: d.latitude,
+        lng: d.longitude,
+        size: d.total_checkIns /normalization,
+        details: d.details || [],
+        label: d.label
+    }));
+
+    if (!world) {
+        world = new Globe(document.getElementById('globeViz'))
+            .globeImageUrl('//unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+            .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+            .hexBinPointsData(gData)
+            .hexBinPointWeight('size')
+            .hexBinResolution(hexResolution)
+            .hexTopColor(d => weightColor(d.sumWeight))
+            .hexSideColor(d => weightColor(d.sumWeight))
+            .hexBinMerge(false)
+            .enablePointerInteraction(true)
+            .hexLabel(d => d.points[0].label);
+    
+    } else {
+        world.hexBinPointsData(gData);
+    }
+
+    if (!(world instanceof THREE.Object3D)) {
+        console.warn("Globe object is not recognized as THREE.Object3D. Fixing...");
+        Object.setPrototypeOf(world, THREE.Object3D.prototype);
+    }
+}
+
+
+
+function animate() {
+    renderer.setAnimationLoop(() => {
+    // world.object3d.rotation.y += 0.001; // ✅ Small rotation for VR visibility
+    renderer.render(scene, camera);
+});
+}
+
+animate();
+    </script>
+</body>
+</html>
